@@ -7,7 +7,7 @@ var animating = false;
 function animate()
 {
     if (!animating) return;
-    
+
     animating = true;
     setTime(currentTime + 1);
     timeline.setCustomTime(currentTime,"current");
@@ -37,6 +37,7 @@ $(function()
         if (animating) {
             animating = false;
         } else {
+            animating = true;
             setTime(0);
             timeline.setCustomTime(0,"current");
             animate();
