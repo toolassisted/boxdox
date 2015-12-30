@@ -6,6 +6,8 @@ var animating = false;
 
 function animate()
 {
+    if (!animating) return;
+    
     animating = true;
     setTime(currentTime + 1);
     timeline.setCustomTime(currentTime,"current");
@@ -32,9 +34,13 @@ $(function()
     $("#nextFrameButton").click(function(){ setTime(currentTime+1); timeline.setCustomTime(currentTime,"current"); });
     $("#playButton").click(function()
     { 
-        setTime(0);
-        timeline.setCustomTime(0,"current");
-        animate();
+        if (animating) {
+            animating = false;
+        } else {
+            setTime(0);
+            timeline.setCustomTime(0,"current");
+            animate();
+        }
             
     });
     $( "#character" ).change(function () 
@@ -58,8 +64,11 @@ $(function()
             });
           })
     });
-    $("#character").val(c);
-    $("#character").change();
+    if (c != "") {
+        $("#character").val(c);
+        $("#character").change();
+    }
+    if (s != undefined)
     loadScript(s,parseInt(split[2]));
 });
 function redraw_canvas()
