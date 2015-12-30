@@ -229,7 +229,7 @@ function loadScript(name,time)
         // Create a DataSet (allows two way data-binding)
         $( Object.keys(data.Commands) ).each(function( index,type ) 
         {
-            if(type > 8)
+            if(type > 8 && type != 12)
                 return;
             groups.add({id: type, content: type});
             $( data.Commands[type] ).each(function(index,command)
