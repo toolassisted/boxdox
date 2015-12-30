@@ -97,6 +97,7 @@ function setTime(time)
     if(!CONVERSION)
     {
         CONVERSION = canvas.width/5;
+        if (canvas.height < canvas.width) CONVERSION = canvas.height/5;
         $("#zoom-factor").attr("placeholder",CONVERSION);
     }
     var OFFSETX = canvas.width/2;
