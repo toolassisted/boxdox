@@ -245,7 +245,7 @@ function loadScript(name,time)
           min: 0,
           max: data.IASAFrame,
           zoomable:true,
-          timeAxis: {scale: 'millisecond', step: 1},
+          timeAxis: {scale: 'millisecond', step: 1}, format: {minorLabels:{millisecond:'S'}},
           showMajorLabels: false,
           orientation:"both"
         }
