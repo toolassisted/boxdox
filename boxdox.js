@@ -126,7 +126,7 @@ function setTime(time)
         {
             if(currentTime >= command.TickStart && currentTime < command.TickEnd)
             {
-                if (command.Data[0] == 0) SCRIPTX = command.Data[0];
+                if (command.Data[1] == 0) SCRIPTX = command.Data[0];
             }
         });
     }
