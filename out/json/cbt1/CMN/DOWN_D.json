@@ -1,0 +1,71 @@
+{
+    "Name": "DOWN_D",
+    "Index": 236,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": 60,
+    "IASAFrame": -1,
+    "TotalTicks": 80,
+    "Commands": {
+        "1": [
+            {
+                "TickStart": 0,
+                "TickEnd": 80,
+                "Data": {
+                    "Flag1": "0x8=>0x8",
+                    "Flag2": "0x0"
+                }
+            }
+        ],
+        "7": [
+            {
+                "TickStart": 0,
+                "TickEnd": 80,
+                "Data": [
+                    -0.3499999940395355
+                ]
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 80,
+                "Data": {
+                    "Index": 161,
+                    "Type": 0,
+                    "FrameStart": 0,
+                    "FrameEnd": 80,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 80,
+                "Data": {
+                    "Index": 42,
+                    "Type": 4,
+                    "FrameStart": 0,
+                    "FrameEnd": 1,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ],
+        "9": [
+            {
+                "TickStart": 0,
+                "TickEnd": 4,
+                "Data": [
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    -128,
+                    62
+                ]
+            }
+        ]
+    }
+}

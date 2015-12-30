@@ -1,0 +1,46 @@
+{
+    "Name": "LAR_002_001_003_stand",
+    "Index": 1950,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 340,
+    "Commands": {
+        "1": [
+            {
+                "TickStart": 0,
+                "TickEnd": 260,
+                "Data": {
+                    "Flag1": "=>0x0",
+                    "Flag2": "0x5"
+                }
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 340,
+                "Data": {
+                    "Index": 0,
+                    "Type": 5,
+                    "FrameStart": 30,
+                    "FrameEnd": 31,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 50,
+                "Data": {
+                    "Index": 0,
+                    "Type": 4,
+                    "FrameStart": 0,
+                    "FrameEnd": 0,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ]
+    }
+}

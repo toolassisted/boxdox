@@ -1,0 +1,116 @@
+{
+    "Name": "INTRO_COMMON_1_NDK",
+    "Index": 1601,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 360,
+    "Commands": {
+        "1": [
+            {
+                "TickStart": 0,
+                "TickEnd": 360,
+                "Data": {
+                    "Flag1": "=>0x0",
+                    "Flag2": "0x30a"
+                }
+            }
+        ],
+        "4": [
+            {
+                "TickStart": 55,
+                "TickEnd": 56,
+                "Data": [
+                    4,
+                    1000,
+                    16,
+                    24,
+                    4,
+                    1001,
+                    16,
+                    76,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 150,
+                "TickEnd": 151,
+                "Data": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 360,
+                "Data": {
+                    "Index": 36,
+                    "Type": 5,
+                    "FrameStart": 0,
+                    "FrameEnd": 360,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ],
+        "10": [
+            {
+                "TickStart": 60,
+                "TickEnd": 61,
+                "Data": [
+                    0,
+                    0,
+                    21,
+                    39,
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ],
+        "11": [
+            {
+                "TickStart": 174,
+                "TickEnd": 175,
+                "Data": [
+                    0,
+                    0,
+                    1,
+                    2090,
+                    0,
+                    1,
+                    0.30000001192092896,
+                    -0.15000000596046448,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0
+                ]
+            }
+        ]
+    }
+}

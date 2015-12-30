@@ -1,0 +1,200 @@
+{
+    "Name": "TAKEOFF_V",
+    "Index": 4,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 3,
+    "Commands": {
+        "3": [
+            {
+                "TickStart": 0,
+                "TickEnd": 3,
+                "Data": {
+                    "CancelList": 5,
+                    "Type": "BUTTON_BUFFER",
+                    "Moves": [
+                        "TACKLE_L",
+                        "TACKLE_M",
+                        "TACKLE_H",
+                        "VT_TACKLE_H",
+                        "TACKLE_EX",
+                        "VT_TACKLE_EX",
+                        "CLAP_L",
+                        "CLAP_M",
+                        "CLAP_H",
+                        "CLAP_EX",
+                        "VT_CLAP_L",
+                        "VT_CLAP_M",
+                        "VT_CLAP_H",
+                        "VT_CLAP_EX",
+                        "KOMANAGE_L",
+                        "KOMANAGE_M",
+                        "KOMANAGE_H",
+                        "KOMANAGE_EX",
+                        "VT_KOMANAGE_L",
+                        "VT_KOMANAGE_M",
+                        "VT_KOMANAGE_H",
+                        "VT_KOMANAGE_EX",
+                        "CA",
+                        "VTCA",
+                        "VT"
+                    ]
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 3,
+                "Data": {
+                    "CancelList": 5,
+                    "Type": "HIT_CANCEL",
+                    "Moves": [
+                        "TACKLE_L",
+                        "TACKLE_M",
+                        "TACKLE_H",
+                        "VT_TACKLE_H",
+                        "TACKLE_EX",
+                        "VT_TACKLE_EX",
+                        "CLAP_L",
+                        "CLAP_M",
+                        "CLAP_H",
+                        "CLAP_EX",
+                        "VT_CLAP_L",
+                        "VT_CLAP_M",
+                        "VT_CLAP_H",
+                        "VT_CLAP_EX",
+                        "KOMANAGE_L",
+                        "KOMANAGE_M",
+                        "KOMANAGE_H",
+                        "KOMANAGE_EX",
+                        "VT_KOMANAGE_L",
+                        "VT_KOMANAGE_M",
+                        "VT_KOMANAGE_H",
+                        "VT_KOMANAGE_EX",
+                        "CA",
+                        "VTCA",
+                        "VT"
+                    ]
+                }
+            }
+        ],
+        "6": [
+            {
+                "TickStart": 0,
+                "TickEnd": 3,
+                "Data": {
+                    "X": -0.30000001192092896,
+                    "Y": 1.2999999523162842,
+                    "Rot": 0.0,
+                    "Width": 0.699999988079071,
+                    "Height": 0.4000000059604645,
+                    "Unk1": 0,
+                    "Unk2": 25,
+                    "Unk3": 25,
+                    "Unk4": 25,
+                    "Unk5": 0,
+                    "Unk6": 0,
+                    "Unk7": 0,
+                    "Unk8": 0,
+                    "Unk9": 0,
+                    "Unk10": 3,
+                    "Unk11": 0,
+                    "Unk12": 0,
+                    "Unk13": 0,
+                    "Unk14": 2,
+                    "Unk15": 0,
+                    "Unk16": 1.0
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 3,
+                "Data": {
+                    "X": -0.30000001192092896,
+                    "Y": 0.550000011920929,
+                    "Rot": 0.0,
+                    "Width": 0.699999988079071,
+                    "Height": 0.75,
+                    "Unk1": 0,
+                    "Unk2": 25,
+                    "Unk3": 25,
+                    "Unk4": 25,
+                    "Unk5": 0,
+                    "Unk6": 0,
+                    "Unk7": 0,
+                    "Unk8": 0,
+                    "Unk9": 0,
+                    "Unk10": 3,
+                    "Unk11": 0,
+                    "Unk12": 0,
+                    "Unk13": 0,
+                    "Unk14": 1,
+                    "Unk15": 0,
+                    "Unk16": 1.0
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 3,
+                "Data": {
+                    "X": -0.30000001192092896,
+                    "Y": 0.0,
+                    "Rot": 0.0,
+                    "Width": 0.699999988079071,
+                    "Height": 0.550000011920929,
+                    "Unk1": 0,
+                    "Unk2": 25,
+                    "Unk3": 25,
+                    "Unk4": 25,
+                    "Unk5": 0,
+                    "Unk6": 0,
+                    "Unk7": 0,
+                    "Unk8": 0,
+                    "Unk9": 0,
+                    "Unk10": 3,
+                    "Unk11": 0,
+                    "Unk12": 0,
+                    "Unk13": 0,
+                    "Unk14": 0,
+                    "Unk15": 0,
+                    "Unk16": 1.0
+                }
+            }
+        ],
+        "7": [
+            {
+                "TickStart": 0,
+                "TickEnd": 3,
+                "Data": [
+                    -0.20000000298023224
+                ]
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 3,
+                "Data": {
+                    "Index": 8,
+                    "Type": 2,
+                    "FrameStart": 0,
+                    "FrameEnd": 3,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 3,
+                "Data": {
+                    "Index": 0,
+                    "Type": 4,
+                    "FrameStart": 1,
+                    "FrameEnd": 7,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ]
+    }
+}

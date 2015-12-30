@@ -1,0 +1,72 @@
+{
+    "Name": "ROUND_LOSE",
+    "Index": 1010,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": 60,
+    "IASAFrame": -1,
+    "TotalTicks": 119,
+    "Commands": {
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 119,
+                "Data": {
+                    "Index": 117,
+                    "Type": 2,
+                    "FrameStart": 0,
+                    "FrameEnd": 119,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 119,
+                "Data": {
+                    "Index": 27,
+                    "Type": 4,
+                    "FrameStart": 0,
+                    "FrameEnd": 0,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ],
+        "9": [
+            {
+                "TickStart": 0,
+                "TickEnd": 5,
+                "Data": [
+                    2,
+                    0,
+                    0,
+                    0,
+                    -51,
+                    -52,
+                    76,
+                    62
+                ]
+            }
+        ],
+        "10": [
+            {
+                "TickStart": 21,
+                "TickEnd": 22,
+                "Data": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ]
+    }
+}

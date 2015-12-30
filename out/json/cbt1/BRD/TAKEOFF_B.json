@@ -1,0 +1,242 @@
+{
+    "Name": "TAKEOFF_B",
+    "Index": 10,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 4,
+    "Commands": {
+        "3": [
+            {
+                "TickStart": 0,
+                "TickEnd": 4,
+                "Data": {
+                    "CancelList": 16,
+                    "Type": "BUTTON_BUFFER",
+                    "Moves": [
+                        "BULLHEAD_L",
+                        "BULLHEAD_M",
+                        "BULLHEAD_H",
+                        "BULLHEAD_EX",
+                        "BULLHORN_LP",
+                        "BULLHORN_LK",
+                        "BULLHORN_MP",
+                        "BULLHORN_MK",
+                        "BULLHORN_HP",
+                        "BULLHORN_HK",
+                        "BULLHORN_EX",
+                        "KILLINGHEAD_L",
+                        "KILLINGHEAD_M",
+                        "KILLINGHEAD_H",
+                        "KILLINGHEAD_EX",
+                        "HANGINGCHAIN_L",
+                        "HANGINGCHAIN_M",
+                        "HANGINGCHAIN_H",
+                        "HANGINGCHAIN_EX",
+                        "VT1_BULLHEAD_L",
+                        "VT1_BULLHEAD_M",
+                        "VT1_BULLHEAD_H",
+                        "VT1_BULLHEAD_EX",
+                        "BULLREVENGER_L",
+                        "BULLREVENGER_M",
+                        "BULLREVENGER_H",
+                        "BULLREVENGER_EX",
+                        "VT1_BULLHORN_EX",
+                        "CA"
+                    ]
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 4,
+                "Data": {
+                    "CancelList": 16,
+                    "Type": "HIT_CANCEL",
+                    "Moves": [
+                        "BULLHEAD_L",
+                        "BULLHEAD_M",
+                        "BULLHEAD_H",
+                        "BULLHEAD_EX",
+                        "BULLHORN_LP",
+                        "BULLHORN_LK",
+                        "BULLHORN_MP",
+                        "BULLHORN_MK",
+                        "BULLHORN_HP",
+                        "BULLHORN_HK",
+                        "BULLHORN_EX",
+                        "KILLINGHEAD_L",
+                        "KILLINGHEAD_M",
+                        "KILLINGHEAD_H",
+                        "KILLINGHEAD_EX",
+                        "HANGINGCHAIN_L",
+                        "HANGINGCHAIN_M",
+                        "HANGINGCHAIN_H",
+                        "HANGINGCHAIN_EX",
+                        "VT1_BULLHEAD_L",
+                        "VT1_BULLHEAD_M",
+                        "VT1_BULLHEAD_H",
+                        "VT1_BULLHEAD_EX",
+                        "BULLREVENGER_L",
+                        "BULLREVENGER_M",
+                        "BULLREVENGER_H",
+                        "BULLREVENGER_EX",
+                        "VT1_BULLHORN_EX",
+                        "CA"
+                    ]
+                }
+            }
+        ],
+        "6": [
+            {
+                "TickStart": 0,
+                "TickEnd": 4,
+                "Data": {
+                    "X": -0.4000000059604645,
+                    "Y": 0.550000011920929,
+                    "Rot": 0.0,
+                    "Width": 0.800000011920929,
+                    "Height": 0.75,
+                    "Unk1": 0,
+                    "Unk2": 25,
+                    "Unk3": 25,
+                    "Unk4": 25,
+                    "Unk5": 0,
+                    "Unk6": 0,
+                    "Unk7": 0,
+                    "Unk8": 0,
+                    "Unk9": 0,
+                    "Unk10": 3,
+                    "Unk11": 0,
+                    "Unk12": 0,
+                    "Unk13": 0,
+                    "Unk14": 0,
+                    "Unk15": 0,
+                    "Unk16": 1.0
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 4,
+                "Data": {
+                    "X": -0.4000000059604645,
+                    "Y": 0.0,
+                    "Rot": 0.0,
+                    "Width": 0.800000011920929,
+                    "Height": 0.550000011920929,
+                    "Unk1": 0,
+                    "Unk2": 25,
+                    "Unk3": 25,
+                    "Unk4": 25,
+                    "Unk5": 0,
+                    "Unk6": 0,
+                    "Unk7": 0,
+                    "Unk8": 0,
+                    "Unk9": 0,
+                    "Unk10": 3,
+                    "Unk11": 0,
+                    "Unk12": 0,
+                    "Unk13": 0,
+                    "Unk14": 1,
+                    "Unk15": 0,
+                    "Unk16": 1.0
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 4,
+                "Data": {
+                    "X": -0.4000000059604645,
+                    "Y": 1.2999999523162842,
+                    "Rot": 0.0,
+                    "Width": 0.800000011920929,
+                    "Height": 0.5,
+                    "Unk1": 0,
+                    "Unk2": 25,
+                    "Unk3": 25,
+                    "Unk4": 25,
+                    "Unk5": 0,
+                    "Unk6": 0,
+                    "Unk7": 0,
+                    "Unk8": 0,
+                    "Unk9": 0,
+                    "Unk10": 3,
+                    "Unk11": 0,
+                    "Unk12": 0,
+                    "Unk13": 0,
+                    "Unk14": 2,
+                    "Unk15": 0,
+                    "Unk16": 1.0
+                }
+            }
+        ],
+        "7": [
+            {
+                "TickStart": 0,
+                "TickEnd": 4,
+                "Data": [
+                    -0.30000001192092896
+                ]
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 4,
+                "Data": {
+                    "Index": 14,
+                    "Type": 2,
+                    "FrameStart": 0,
+                    "FrameEnd": 3,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ],
+        "12": [
+            {
+                "TickStart": 0,
+                "TickEnd": 1,
+                "Data": [
+                    0.0,
+                    0,
+                    -128,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 1,
+                "TickEnd": 2,
+                "Data": [
+                    0.0,
+                    0,
+                    -128,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 2,
+                "TickEnd": 3,
+                "Data": [
+                    0.0,
+                    0,
+                    -128,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 3,
+                "TickEnd": 4,
+                "Data": [
+                    0.0,
+                    0,
+                    -128,
+                    0,
+                    0
+                ]
+            }
+        ]
+    }
+}

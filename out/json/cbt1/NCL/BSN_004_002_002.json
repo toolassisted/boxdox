@@ -1,0 +1,58 @@
+{
+    "Name": "BSN_004_002_002",
+    "Index": 1900,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 500,
+    "Commands": {
+        "4": [
+            {
+                "TickStart": 1,
+                "TickEnd": 2,
+                "Data": [
+                    6,
+                    1,
+                    16,
+                    12,
+                    100,
+                    24,
+                    0,
+                    -1,
+                    30,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 100,
+                "Data": {
+                    "Index": 0,
+                    "Type": 2,
+                    "FrameStart": 0,
+                    "FrameEnd": 100,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 100,
+                "Data": {
+                    "Index": 22,
+                    "Type": 4,
+                    "FrameStart": 0,
+                    "FrameEnd": 0,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ]
+    }
+}

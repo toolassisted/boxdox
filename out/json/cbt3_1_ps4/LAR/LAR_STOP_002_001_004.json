@@ -1,0 +1,24 @@
+{
+    "Name": "LAR_STOP_002_001_004",
+    "Index": 1962,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 110,
+    "Commands": {
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 110,
+                "Data": {
+                    "Index": 16,
+                    "Type": 5,
+                    "FrameStart": 105,
+                    "FrameEnd": 106,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ]
+    }
+}

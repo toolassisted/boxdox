@@ -1,0 +1,74 @@
+{
+    "Name": "VT_NDK_BACK_LONG_TAIKI",
+    "Index": 756,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 86,
+    "Commands": {
+        "0": [
+            {
+                "TickStart": 85,
+                "TickEnd": 86,
+                "Data": [
+                    0,
+                    "VT_NDK_BACK_LONG_FALL",
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    86,
+                    0
+                ]
+            }
+        ],
+        "1": [
+            {
+                "TickStart": 0,
+                "TickEnd": 86,
+                "Data": {
+                    "Flag1": "=>0x0",
+                    "Flag2": "0x400"
+                }
+            }
+        ],
+        "4": [
+            {
+                "TickStart": 0,
+                "TickEnd": 86,
+                "Data": [
+                    0,
+                    75,
+                    16,
+                    12,
+                    0,
+                    4,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 86,
+                "Data": {
+                    "Index": 87,
+                    "Type": 2,
+                    "FrameStart": 0,
+                    "FrameEnd": 12,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ]
+    }
+}

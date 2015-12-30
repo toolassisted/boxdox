@@ -1,0 +1,42 @@
+{
+    "Name": "BLOW_BURY_E",
+    "Index": 336,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 37,
+    "Commands": {
+        "2": [
+            {
+                "TickStart": 0,
+                "TickEnd": 37,
+                "Data": {
+                    "Force": 0.0,
+                    "Flags": "VEL_X|0x8=>0x9"
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 37,
+                "Data": {
+                    "Force": 0.0,
+                    "Flags": "ACCEL_X|0x8000=>0x9000"
+                }
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 37,
+                "Data": {
+                    "Index": 63,
+                    "Type": 0,
+                    "FrameStart": 35,
+                    "FrameEnd": 37,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ]
+    }
+}

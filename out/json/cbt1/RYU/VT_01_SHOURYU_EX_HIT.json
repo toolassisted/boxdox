@@ -1,0 +1,846 @@
+{
+    "Name": "VT_01_SHOURYU_EX_HIT",
+    "Index": 975,
+    "FirstHitboxFrame": 19,
+    "LastHitboxFrame": 31,
+    "IASAFrame": 82,
+    "TotalTicks": 82,
+    "Commands": {
+        "0": [
+            {
+                "TickStart": 56,
+                "TickEnd": 82,
+                "Data": [
+                    8,
+                    "SHOURYU_EX_HIT_GND",
+                    0,
+                    0,
+                    0,
+                    0,
+                    19,
+                    0,
+                    31,
+                    31
+                ]
+            }
+        ],
+        "1": [
+            {
+                "TickStart": 19,
+                "TickEnd": 31,
+                "Data": {
+                    "Flag1": "AIR|0x200=>0x204",
+                    "Flag2": "0x0"
+                }
+            },
+            {
+                "TickStart": 31,
+                "TickEnd": 82,
+                "Data": {
+                    "Flag1": "AIR|0x200=>0x204",
+                    "Flag2": "0x0"
+                }
+            }
+        ],
+        "2": [
+            {
+                "TickStart": 17,
+                "TickEnd": 18,
+                "Data": {
+                    "Force": 0.14499999582767487,
+                    "Flags": "VEL_X=>0x1"
+                }
+            },
+            {
+                "TickStart": 17,
+                "TickEnd": 18,
+                "Data": {
+                    "Force": -0.009999999776482582,
+                    "Flags": "ACCEL_X=>0x1000"
+                }
+            },
+            {
+                "TickStart": 19,
+                "TickEnd": 20,
+                "Data": {
+                    "Force": 0.23999999463558197,
+                    "Flags": "VEL_Y=>0x10"
+                }
+            },
+            {
+                "TickStart": 19,
+                "TickEnd": 20,
+                "Data": {
+                    "Force": -0.009999999776482582,
+                    "Flags": "ACCEL_Y=>0x10000"
+                }
+            },
+            {
+                "TickStart": 21,
+                "TickEnd": 22,
+                "Data": {
+                    "Force": 0.0,
+                    "Flags": "0x6=>0x6"
+                }
+            },
+            {
+                "TickStart": 21,
+                "TickEnd": 22,
+                "Data": {
+                    "Force": 0.0,
+                    "Flags": "0x6000=>0x6000"
+                }
+            }
+        ],
+        "4": [
+            {
+                "TickStart": 16,
+                "TickEnd": 33,
+                "Data": [
+                    0,
+                    66,
+                    8,
+                    24,
+                    0,
+                    66,
+                    8,
+                    44,
+                    1,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0
+                ]
+            },
+            {
+                "TickStart": 18,
+                "TickEnd": 33,
+                "Data": [
+                    35,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0,
+                    0,
+                    2,
+                    0,
+                    20,
+                    0
+                ]
+            }
+        ],
+        "5": [
+            {
+                "TickStart": 0,
+                "TickEnd": 11,
+                "Data": {
+                    "X": 0.0,
+                    "Y": 0.699999988079071,
+                    "Rot": 0.0,
+                    "Width": 2.0,
+                    "Height": 0.800000011920929,
+                    "Unk1": 0,
+                    "Unk2": 25,
+                    "Unk3": 25,
+                    "Unk4": 25,
+                    "Unk5": 0,
+                    "Unk6": 72,
+                    "Unk7": 0,
+                    "Id": -1,
+                    "Unk9": 0,
+                    "Unk92": 1,
+                    "HitLevel": "MID",
+                    "HitboxType": "PROXIMITY_GUARD",
+                    "JP?": 1,
+                    "JP2?": 1,
+                    "Unk12": 0,
+                    "HitEffect": -1,
+                    "Unk14": 0,
+                    "Unk15": 5
+                }
+            },
+            {
+                "TickStart": 19,
+                "TickEnd": 31,
+                "Data": {
+                    "X": -0.3199999928474426,
+                    "Y": 0.8999999761581421,
+                    "Rot": 0.0,
+                    "Width": 0.800000011920929,
+                    "Height": 1.4800000190734863,
+                    "Unk1": 0,
+                    "Unk2": 25,
+                    "Unk3": 25,
+                    "Unk4": 25,
+                    "Unk5": 0,
+                    "Unk6": 8,
+                    "Unk7": 128,
+                    "Id": 1,
+                    "Unk9": 80,
+                    "Unk92": 1,
+                    "HitLevel": "MID",
+                    "HitboxType": "NORMAL",
+                    "JP?": 7,
+                    "JP2?": 99,
+                    "Unk12": 0,
+                    "HitEffect": 177,
+                    "Unk14": 0,
+                    "Unk15": 4
+                }
+            }
+        ],
+        "7": [
+            {
+                "TickStart": 0,
+                "TickEnd": 11,
+                "Data": [
+                    -0.25
+                ]
+            },
+            {
+                "TickStart": 21,
+                "TickEnd": 57,
+                "Data": [
+                    0.0
+                ]
+            },
+            {
+                "TickStart": 57,
+                "TickEnd": 82,
+                "Data": [
+                    0.0
+                ]
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 19,
+                "Data": {
+                    "Index": 112,
+                    "Type": 2,
+                    "FrameStart": 0,
+                    "FrameEnd": 22,
+                    "Unk1": 0,
+                    "Unk2": 160
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 4,
+                "Data": {
+                    "Index": 28,
+                    "Type": 4,
+                    "FrameStart": 0,
+                    "FrameEnd": 0,
+                    "Unk1": 0,
+                    "Unk2": 144
+                }
+            },
+            {
+                "TickStart": 4,
+                "TickEnd": 8,
+                "Data": {
+                    "Index": 11,
+                    "Type": 4,
+                    "FrameStart": 0,
+                    "FrameEnd": 0,
+                    "Unk1": 0,
+                    "Unk2": 128
+                }
+            },
+            {
+                "TickStart": 8,
+                "TickEnd": 13,
+                "Data": {
+                    "Index": 9,
+                    "Type": 4,
+                    "FrameStart": 0,
+                    "FrameEnd": 0,
+                    "Unk1": 0,
+                    "Unk2": 112
+                }
+            },
+            {
+                "TickStart": 13,
+                "TickEnd": 15,
+                "Data": {
+                    "Index": 10,
+                    "Type": 4,
+                    "FrameStart": 0,
+                    "FrameEnd": 0,
+                    "Unk1": 0,
+                    "Unk2": 96
+                }
+            },
+            {
+                "TickStart": 15,
+                "TickEnd": 17,
+                "Data": {
+                    "Index": 12,
+                    "Type": 4,
+                    "FrameStart": 0,
+                    "FrameEnd": 0,
+                    "Unk1": 0,
+                    "Unk2": 80
+                }
+            },
+            {
+                "TickStart": 19,
+                "TickEnd": 34,
+                "Data": {
+                    "Index": 112,
+                    "Type": 2,
+                    "FrameStart": 23,
+                    "FrameEnd": 38,
+                    "Unk1": 0,
+                    "Unk2": 64
+                }
+            },
+            {
+                "TickStart": 17,
+                "TickEnd": 27,
+                "Data": {
+                    "Index": 28,
+                    "Type": 4,
+                    "FrameStart": 0,
+                    "FrameEnd": 0,
+                    "Unk1": 0,
+                    "Unk2": 48
+                }
+            },
+            {
+                "TickStart": 34,
+                "TickEnd": 82,
+                "Data": {
+                    "Index": 112,
+                    "Type": 2,
+                    "FrameStart": 39,
+                    "FrameEnd": 55,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 27,
+                "TickEnd": 43,
+                "Data": {
+                    "Index": 0,
+                    "Type": 4,
+                    "FrameStart": 0,
+                    "FrameEnd": 0,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ],
+        "10": [
+            {
+                "TickStart": 0,
+                "TickEnd": 1,
+                "Data": [
+                    0,
+                    0,
+                    42,
+                    3,
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 3,
+                "TickEnd": 4,
+                "Data": [
+                    0,
+                    0,
+                    50,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 4,
+                "TickEnd": 5,
+                "Data": [
+                    0,
+                    0,
+                    10,
+                    0,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 4,
+                "TickEnd": 5,
+                "Data": [
+                    0,
+                    0,
+                    -22,
+                    3,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 15,
+                "TickEnd": 16,
+                "Data": [
+                    0,
+                    0,
+                    -104,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 19,
+                "TickEnd": 20,
+                "Data": [
+                    0,
+                    0,
+                    10,
+                    0,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 19,
+                "TickEnd": 20,
+                "Data": [
+                    0,
+                    0,
+                    -24,
+                    3,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 19,
+                "TickEnd": 20,
+                "Data": [
+                    0,
+                    0,
+                    -124,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 19,
+                "TickEnd": 20,
+                "Data": [
+                    0,
+                    0,
+                    5,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 42,
+                "TickEnd": 43,
+                "Data": [
+                    0,
+                    0,
+                    11,
+                    0,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ],
+        "11": [
+            {
+                "TickStart": 18,
+                "TickEnd": 19,
+                "Data": [
+                    0,
+                    0,
+                    1,
+                    14,
+                    0,
+                    -1,
+                    -0.20000000298023224,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 37,
+                "TickEnd": 38,
+                "Data": [
+                    1,
+                    1,
+                    0,
+                    30,
+                    0,
+                    -1,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 43,
+                "TickEnd": 44,
+                "Data": [
+                    0,
+                    1,
+                    2,
+                    61,
+                    0,
+                    -1,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 15,
+                "TickEnd": 16,
+                "Data": [
+                    0,
+                    0,
+                    2,
+                    904,
+                    0,
+                    6,
+                    -0.25,
+                    -0.10000000149011612,
+                    0.15000000596046448,
+                    0.0,
+                    0.699999988079071,
+                    0
+                ]
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 1,
+                "Data": [
+                    0,
+                    0,
+                    2,
+                    61,
+                    0,
+                    6,
+                    0.0,
+                    0.0,
+                    0.0,
+                    5.605193857299268e-45,
+                    1.0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 1,
+                "Data": [
+                    0,
+                    0,
+                    2,
+                    61,
+                    0,
+                    14,
+                    0.0,
+                    0.0,
+                    0.0,
+                    5.605193857299268e-45,
+                    1.0,
+                    0
+                ]
+            }
+        ],
+        "12": [
+            {
+                "TickStart": 0,
+                "TickEnd": 1,
+                "Data": [
+                    0.00697400001809001,
+                    0,
+                    -128,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 1,
+                "TickEnd": 2,
+                "Data": [
+                    0.23245400190353394,
+                    0,
+                    -128,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 2,
+                "TickEnd": 3,
+                "Data": [
+                    0.23246699571609497,
+                    0,
+                    -128,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 3,
+                "TickEnd": 4,
+                "Data": [
+                    0.23250000178813934,
+                    0,
+                    -128,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 4,
+                "TickEnd": 5,
+                "Data": [
+                    0.23257699608802795,
+                    0,
+                    -128,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 5,
+                "TickEnd": 6,
+                "Data": [
+                    0.2326669991016388,
+                    0,
+                    -128,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 6,
+                "TickEnd": 7,
+                "Data": [
+                    0.23275700211524963,
+                    0,
+                    -128,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 7,
+                "TickEnd": 8,
+                "Data": [
+                    0.23284199833869934,
+                    0,
+                    -128,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 8,
+                "TickEnd": 9,
+                "Data": [
+                    0.23022300004959106,
+                    0,
+                    -128,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 9,
+                "TickEnd": 10,
+                "Data": [
+                    0.2162259966135025,
+                    0,
+                    -128,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 10,
+                "TickEnd": 11,
+                "Data": [
+                    0.20146900415420532,
+                    0,
+                    -128,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 11,
+                "TickEnd": 12,
+                "Data": [
+                    0.2003680020570755,
+                    0,
+                    -128,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 12,
+                "TickEnd": 13,
+                "Data": [
+                    0.2087939977645874,
+                    0,
+                    -128,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 13,
+                "TickEnd": 14,
+                "Data": [
+                    0.2216079980134964,
+                    0,
+                    -128,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 14,
+                "TickEnd": 15,
+                "Data": [
+                    0.23012299835681915,
+                    0,
+                    -128,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 15,
+                "TickEnd": 16,
+                "Data": [
+                    0.24182799458503723,
+                    0,
+                    -128,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 16,
+                "TickEnd": 17,
+                "Data": [
+                    0.26236799359321594,
+                    0,
+                    -128,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 17,
+                "TickEnd": 18,
+                "Data": [
+                    0.2823939919471741,
+                    0,
+                    -128,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 18,
+                "TickEnd": 19,
+                "Data": [
+                    0.34655898809432983,
+                    0,
+                    -128,
+                    0,
+                    0
+                ]
+            }
+        ]
+    }
+}

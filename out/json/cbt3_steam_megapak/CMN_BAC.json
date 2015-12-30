@@ -1,0 +1,1677 @@
+{
+    "Scripts": {
+        "40": {
+            "Name": "THROW_MISS",
+            "Index": 40,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": 42,
+            "TotalTicks": 44
+        },
+        "41": {
+            "Name": "THROW_THROUGH",
+            "Index": 41,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": 42,
+            "TotalTicks": 44
+        },
+        "50": {
+            "Name": "FGUARD_L",
+            "Index": 50,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 67
+        },
+        "51": {
+            "Name": "FGUARD_L_NEAR",
+            "Index": 51,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 67
+        },
+        "52": {
+            "Name": "FGUARD_L_FAR",
+            "Index": 52,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 67
+        },
+        "53": {
+            "Name": "FGUARD_M",
+            "Index": 53,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 67
+        },
+        "54": {
+            "Name": "FGUARD_M_NEAR",
+            "Index": 54,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 67
+        },
+        "55": {
+            "Name": "FGUARD_M_FAR",
+            "Index": 55,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 67
+        },
+        "56": {
+            "Name": "FGUARD_H",
+            "Index": 56,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 67
+        },
+        "57": {
+            "Name": "FGUARD_H_NEAR",
+            "Index": 57,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 67
+        },
+        "58": {
+            "Name": "FGUARD_H_FAR",
+            "Index": 58,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 67
+        },
+        "59": {
+            "Name": "FGUARD_C",
+            "Index": 59,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 67
+        },
+        "60": {
+            "Name": "FGUARD_C_NEAR",
+            "Index": 60,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 67
+        },
+        "61": {
+            "Name": "FGUARD_C_FAR",
+            "Index": 61,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 67
+        },
+        "70": {
+            "Name": "GUARD_LL",
+            "Index": 70,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "71": {
+            "Name": "GUARD_LM",
+            "Index": 71,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "72": {
+            "Name": "GUARD_LH",
+            "Index": 72,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "73": {
+            "Name": "GUARD_LL_NEAR",
+            "Index": 73,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "74": {
+            "Name": "GUARD_LM_NEAR",
+            "Index": 74,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "75": {
+            "Name": "GUARD_LH_NEAR",
+            "Index": 75,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "76": {
+            "Name": "GUARD_LL_FAR",
+            "Index": 76,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "77": {
+            "Name": "GUARD_LM_FAR",
+            "Index": 77,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "78": {
+            "Name": "GUARD_LH_FAR",
+            "Index": 78,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "79": {
+            "Name": "GUARD_ML",
+            "Index": 79,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "80": {
+            "Name": "GUARD_MM",
+            "Index": 80,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "81": {
+            "Name": "GUARD_MH",
+            "Index": 81,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "82": {
+            "Name": "GUARD_ML_NEAR",
+            "Index": 82,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "83": {
+            "Name": "GUARD_MM_NEAR",
+            "Index": 83,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "84": {
+            "Name": "GUARD_MH_NEAR",
+            "Index": 84,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "85": {
+            "Name": "GUARD_ML_FAR",
+            "Index": 85,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "86": {
+            "Name": "GUARD_MM_FAR",
+            "Index": 86,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "87": {
+            "Name": "GUARD_MH_FAR",
+            "Index": 87,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "88": {
+            "Name": "GUARD_HL",
+            "Index": 88,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "89": {
+            "Name": "GUARD_HM",
+            "Index": 89,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "90": {
+            "Name": "GUARD_HH",
+            "Index": 90,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "91": {
+            "Name": "GUARD_HL_NEAR",
+            "Index": 91,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "92": {
+            "Name": "GUARD_HM_NEAR",
+            "Index": 92,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "93": {
+            "Name": "GUARD_HH_NEAR",
+            "Index": 93,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "94": {
+            "Name": "GUARD_HL_FAR",
+            "Index": 94,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "95": {
+            "Name": "GUARD_HM_FAR",
+            "Index": 95,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "96": {
+            "Name": "GUARD_HH_FAR",
+            "Index": 96,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "97": {
+            "Name": "GUARD_CL",
+            "Index": 97,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "98": {
+            "Name": "GUARD_CM",
+            "Index": 98,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "99": {
+            "Name": "GUARD_CH",
+            "Index": 99,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "100": {
+            "Name": "GUARD_CL_NEAR",
+            "Index": 100,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "101": {
+            "Name": "GUARD_CM_NEAR",
+            "Index": 101,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "102": {
+            "Name": "GUARD_CH_NEAR",
+            "Index": 102,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "103": {
+            "Name": "GUARD_CL_FAR",
+            "Index": 103,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "104": {
+            "Name": "GUARD_CM_FAR",
+            "Index": 104,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "105": {
+            "Name": "GUARD_CH_FAR",
+            "Index": 105,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 15,
+            "IASAFrame": 16,
+            "TotalTicks": 17
+        },
+        "120": {
+            "Name": "HIT_LL",
+            "Index": 120,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 10,
+            "IASAFrame": 14,
+            "TotalTicks": 20
+        },
+        "121": {
+            "Name": "HIT_LM",
+            "Index": 121,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 12,
+            "IASAFrame": 16,
+            "TotalTicks": 30
+        },
+        "122": {
+            "Name": "HIT_LH",
+            "Index": 122,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 19,
+            "IASAFrame": 23,
+            "TotalTicks": 40
+        },
+        "123": {
+            "Name": "HIT_LL_NEAR",
+            "Index": 123,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 10,
+            "IASAFrame": 14,
+            "TotalTicks": 20
+        },
+        "124": {
+            "Name": "HIT_LM_NEAR",
+            "Index": 124,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 12,
+            "IASAFrame": 16,
+            "TotalTicks": 30
+        },
+        "125": {
+            "Name": "HIT_LH_NEAR",
+            "Index": 125,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 19,
+            "IASAFrame": 23,
+            "TotalTicks": 40
+        },
+        "126": {
+            "Name": "HIT_LL_FAR",
+            "Index": 126,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 10,
+            "IASAFrame": 14,
+            "TotalTicks": 20
+        },
+        "127": {
+            "Name": "HIT_LM_FAR",
+            "Index": 127,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 12,
+            "IASAFrame": 16,
+            "TotalTicks": 30
+        },
+        "128": {
+            "Name": "HIT_LH_FAR",
+            "Index": 128,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 19,
+            "IASAFrame": 23,
+            "TotalTicks": 40
+        },
+        "129": {
+            "Name": "HIT_ML",
+            "Index": 129,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 10,
+            "IASAFrame": 14,
+            "TotalTicks": 20
+        },
+        "130": {
+            "Name": "HIT_MM",
+            "Index": 130,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 12,
+            "IASAFrame": 16,
+            "TotalTicks": 30
+        },
+        "131": {
+            "Name": "HIT_MH",
+            "Index": 131,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 19,
+            "IASAFrame": 23,
+            "TotalTicks": 40
+        },
+        "132": {
+            "Name": "HIT_ML_NEAR",
+            "Index": 132,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 10,
+            "IASAFrame": 14,
+            "TotalTicks": 20
+        },
+        "133": {
+            "Name": "HIT_MM_NEAR",
+            "Index": 133,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 12,
+            "IASAFrame": 16,
+            "TotalTicks": 30
+        },
+        "134": {
+            "Name": "HIT_MH_NEAR",
+            "Index": 134,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 19,
+            "IASAFrame": 23,
+            "TotalTicks": 40
+        },
+        "135": {
+            "Name": "HIT_ML_FAR",
+            "Index": 135,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 10,
+            "IASAFrame": 14,
+            "TotalTicks": 20
+        },
+        "136": {
+            "Name": "HIT_MM_FAR",
+            "Index": 136,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 12,
+            "IASAFrame": 16,
+            "TotalTicks": 30
+        },
+        "137": {
+            "Name": "HIT_MH_FAR",
+            "Index": 137,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 19,
+            "IASAFrame": 23,
+            "TotalTicks": 40
+        },
+        "138": {
+            "Name": "HIT_HL",
+            "Index": 138,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 10,
+            "IASAFrame": 14,
+            "TotalTicks": 20
+        },
+        "139": {
+            "Name": "HIT_HM",
+            "Index": 139,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 12,
+            "IASAFrame": 16,
+            "TotalTicks": 30
+        },
+        "140": {
+            "Name": "HIT_HH",
+            "Index": 140,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 19,
+            "IASAFrame": 23,
+            "TotalTicks": 40
+        },
+        "141": {
+            "Name": "HIT_HL_NEAR",
+            "Index": 141,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 10,
+            "IASAFrame": 14,
+            "TotalTicks": 20
+        },
+        "142": {
+            "Name": "HIT_HM_NEAR",
+            "Index": 142,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 12,
+            "IASAFrame": 16,
+            "TotalTicks": 30
+        },
+        "143": {
+            "Name": "HIT_HH_NEAR",
+            "Index": 143,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 19,
+            "IASAFrame": 23,
+            "TotalTicks": 40
+        },
+        "144": {
+            "Name": "HIT_HL_FAR",
+            "Index": 144,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 10,
+            "IASAFrame": 14,
+            "TotalTicks": 20
+        },
+        "145": {
+            "Name": "HIT_HM_FAR",
+            "Index": 145,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 12,
+            "IASAFrame": 16,
+            "TotalTicks": 30
+        },
+        "146": {
+            "Name": "HIT_HH_FAR",
+            "Index": 146,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 19,
+            "IASAFrame": 23,
+            "TotalTicks": 40
+        },
+        "147": {
+            "Name": "HIT_CL",
+            "Index": 147,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 10,
+            "IASAFrame": 14,
+            "TotalTicks": 20
+        },
+        "148": {
+            "Name": "HIT_CM",
+            "Index": 148,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 12,
+            "IASAFrame": 16,
+            "TotalTicks": 30
+        },
+        "149": {
+            "Name": "HIT_CH",
+            "Index": 149,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 19,
+            "IASAFrame": 23,
+            "TotalTicks": 40
+        },
+        "150": {
+            "Name": "HIT_CL_NEAR",
+            "Index": 150,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 10,
+            "IASAFrame": 14,
+            "TotalTicks": 20
+        },
+        "151": {
+            "Name": "HIT_CM_NEAR",
+            "Index": 151,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 12,
+            "IASAFrame": 16,
+            "TotalTicks": 30
+        },
+        "152": {
+            "Name": "HIT_CH_NEAR",
+            "Index": 152,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 19,
+            "IASAFrame": 23,
+            "TotalTicks": 40
+        },
+        "153": {
+            "Name": "HIT_CL_FAR",
+            "Index": 153,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 10,
+            "IASAFrame": 14,
+            "TotalTicks": 20
+        },
+        "154": {
+            "Name": "HIT_CM_FAR",
+            "Index": 154,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 12,
+            "IASAFrame": 16,
+            "TotalTicks": 30
+        },
+        "155": {
+            "Name": "HIT_CH_FAR",
+            "Index": 155,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 19,
+            "IASAFrame": 23,
+            "TotalTicks": 40
+        },
+        "156": {
+            "Name": "HIT_JL",
+            "Index": 156,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 36
+        },
+        "157": {
+            "Name": "HIT_JM",
+            "Index": 157,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 36
+        },
+        "158": {
+            "Name": "HIT_JH",
+            "Index": 158,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 36
+        },
+        "159": {
+            "Name": "HIT_JL_NEAR",
+            "Index": 159,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 36
+        },
+        "160": {
+            "Name": "HIT_JM_NEAR",
+            "Index": 160,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 36
+        },
+        "161": {
+            "Name": "HIT_JH_NEAR",
+            "Index": 161,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 36
+        },
+        "162": {
+            "Name": "HIT_JL_FAR",
+            "Index": 162,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 36
+        },
+        "163": {
+            "Name": "HIT_JM_FAR",
+            "Index": 163,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 36
+        },
+        "164": {
+            "Name": "HIT_JH_FAR",
+            "Index": 164,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 36
+        },
+        "167": {
+            "Name": "HIT_HC_NEAR_ABD_5HK",
+            "Index": 167,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 23,
+            "IASAFrame": 36,
+            "TotalTicks": 38
+        },
+        "168": {
+            "Name": "HIT_HC_NEAR_ABD_5HK_R",
+            "Index": 168,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 23,
+            "IASAFrame": 36,
+            "TotalTicks": 38
+        },
+        "170": {
+            "Name": "HIT_LC",
+            "Index": 170,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 44,
+            "IASAFrame": 60,
+            "TotalTicks": 68
+        },
+        "171": {
+            "Name": "HIT_LC_NEAR",
+            "Index": 171,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 44,
+            "IASAFrame": 60,
+            "TotalTicks": 68
+        },
+        "172": {
+            "Name": "HIT_LC_FAR",
+            "Index": 172,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 44,
+            "IASAFrame": 60,
+            "TotalTicks": 68
+        },
+        "173": {
+            "Name": "HIT_MC",
+            "Index": 173,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 42,
+            "IASAFrame": 60,
+            "TotalTicks": 68
+        },
+        "174": {
+            "Name": "HIT_MC_NEAR",
+            "Index": 174,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 42,
+            "IASAFrame": 60,
+            "TotalTicks": 68
+        },
+        "175": {
+            "Name": "HIT_MC_FAR",
+            "Index": 175,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 42,
+            "IASAFrame": 60,
+            "TotalTicks": 68
+        },
+        "176": {
+            "Name": "HIT_HC",
+            "Index": 176,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 23,
+            "IASAFrame": 60,
+            "TotalTicks": 68
+        },
+        "177": {
+            "Name": "HIT_HC_NEAR",
+            "Index": 177,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 23,
+            "IASAFrame": 60,
+            "TotalTicks": 68
+        },
+        "178": {
+            "Name": "HIT_HC_FAR",
+            "Index": 178,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 23,
+            "IASAFrame": 60,
+            "TotalTicks": 68
+        },
+        "179": {
+            "Name": "HIT_CC",
+            "Index": 179,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 34,
+            "IASAFrame": 60,
+            "TotalTicks": 68
+        },
+        "180": {
+            "Name": "HIT_CC_NEAR",
+            "Index": 180,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 34,
+            "IASAFrame": 60,
+            "TotalTicks": 68
+        },
+        "181": {
+            "Name": "HIT_CC_FAR",
+            "Index": 181,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 34,
+            "IASAFrame": 60,
+            "TotalTicks": 68
+        },
+        "185": {
+            "Name": "KUZURE_S",
+            "Index": 185,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 18,
+            "IASAFrame": -1,
+            "TotalTicks": 72
+        },
+        "186": {
+            "Name": "KUZURE_C",
+            "Index": 186,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 18,
+            "IASAFrame": -1,
+            "TotalTicks": 72
+        },
+        "187": {
+            "Name": "KUZURE_QUICK_STAND",
+            "Index": 187,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 18,
+            "IASAFrame": -1,
+            "TotalTicks": 58
+        },
+        "190": {
+            "Name": "GUARD_CRUSH_S",
+            "Index": 190,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 30,
+            "IASAFrame": 50,
+            "TotalTicks": 60
+        },
+        "191": {
+            "Name": "GUARD_CRASH_C",
+            "Index": 191,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 30,
+            "IASAFrame": 50,
+            "TotalTicks": 60
+        },
+        "195": {
+            "Name": "ATTACK_REPELLED_S",
+            "Index": 195,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 30,
+            "IASAFrame": 50,
+            "TotalTicks": 60
+        },
+        "196": {
+            "Name": "ATTACK_REPELLED_C",
+            "Index": 196,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 30,
+            "IASAFrame": 50,
+            "TotalTicks": 60
+        },
+        "210": {
+            "Name": "BLOW_HL",
+            "Index": 210,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 39
+        },
+        "211": {
+            "Name": "BLOW_HM",
+            "Index": 211,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 39
+        },
+        "212": {
+            "Name": "BLOW_HH",
+            "Index": 212,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 39
+        },
+        "220": {
+            "Name": "BOUND_UL",
+            "Index": 220,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 30
+        },
+        "221": {
+            "Name": "BOUND_UM",
+            "Index": 221,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 40
+        },
+        "222": {
+            "Name": "BOUND_UH",
+            "Index": 222,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 40
+        },
+        "223": {
+            "Name": "BOUND_DL",
+            "Index": 223,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 30
+        },
+        "224": {
+            "Name": "BOUND_DM",
+            "Index": 224,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 40
+        },
+        "225": {
+            "Name": "BOUND_DH",
+            "Index": 225,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 40
+        },
+        "226": {
+            "Name": "BOUND_DOWN",
+            "Index": 226,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 13
+        },
+        "227": {
+            "Name": "BOUND_USP",
+            "Index": 227,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 40
+        },
+        "228": {
+            "Name": "BOUND_DSP",
+            "Index": 228,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 40
+        },
+        "235": {
+            "Name": "DOWN_U",
+            "Index": 235,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 60,
+            "IASAFrame": -1,
+            "TotalTicks": 80
+        },
+        "236": {
+            "Name": "DOWN_D",
+            "Index": 236,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 60,
+            "IASAFrame": -1,
+            "TotalTicks": 80
+        },
+        "240": {
+            "Name": "RISE_U",
+            "Index": 240,
+            "FirstHitboxFrame": 0,
+            "LastHitboxFrame": -1,
+            "IASAFrame": 29,
+            "TotalTicks": 54
+        },
+        "241": {
+            "Name": "RISE_D",
+            "Index": 241,
+            "FirstHitboxFrame": 0,
+            "LastHitboxFrame": -1,
+            "IASAFrame": 22,
+            "TotalTicks": 44
+        },
+        "242": {
+            "Name": "RISE_STUN_U",
+            "Index": 242,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 30
+        },
+        "243": {
+            "Name": "RISE_STUN_D",
+            "Index": 243,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 30
+        },
+        "244": {
+            "Name": "RISE_BACK_U",
+            "Index": 244,
+            "FirstHitboxFrame": 0,
+            "LastHitboxFrame": -1,
+            "IASAFrame": 39,
+            "TotalTicks": 60
+        },
+        "245": {
+            "Name": "RISE_BACK_D",
+            "Index": 245,
+            "FirstHitboxFrame": 0,
+            "LastHitboxFrame": -1,
+            "IASAFrame": 22,
+            "TotalTicks": 44
+        },
+        "246": {
+            "Name": "RISE_QUICK_U",
+            "Index": 246,
+            "FirstHitboxFrame": 0,
+            "LastHitboxFrame": -1,
+            "IASAFrame": 29,
+            "TotalTicks": 54
+        },
+        "247": {
+            "Name": "RISE_QUICK_D",
+            "Index": 247,
+            "FirstHitboxFrame": 0,
+            "LastHitboxFrame": -1,
+            "IASAFrame": 22,
+            "TotalTicks": 44
+        },
+        "250": {
+            "Name": "STUN",
+            "Index": 250,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 180
+        },
+        "251": {
+            "Name": "STUN_RECOVERY",
+            "Index": 251,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": 26,
+            "TotalTicks": 40
+        },
+        "260": {
+            "Name": "HIT_UPPER",
+            "Index": 260,
+            "FirstHitboxFrame": 0,
+            "LastHitboxFrame": 39,
+            "IASAFrame": 43,
+            "TotalTicks": 48
+        },
+        "261": {
+            "Name": "HIT_UPPER_NEAR",
+            "Index": 261,
+            "FirstHitboxFrame": 0,
+            "LastHitboxFrame": 39,
+            "IASAFrame": 43,
+            "TotalTicks": 48
+        },
+        "262": {
+            "Name": "HIT_UPPER_FAR",
+            "Index": 262,
+            "FirstHitboxFrame": 0,
+            "LastHitboxFrame": 39,
+            "IASAFrame": 43,
+            "TotalTicks": 48
+        },
+        "265": {
+            "Name": "HIT_BODY_UPPER",
+            "Index": 265,
+            "FirstHitboxFrame": 0,
+            "LastHitboxFrame": 39,
+            "IASAFrame": 43,
+            "TotalTicks": 48
+        },
+        "270": {
+            "Name": "HIT_LOWER",
+            "Index": 270,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 33,
+            "IASAFrame": 37,
+            "TotalTicks": 40
+        },
+        "271": {
+            "Name": "HIT_LOWER_C",
+            "Index": 271,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 33,
+            "IASAFrame": 37,
+            "TotalTicks": 40
+        },
+        "275": {
+            "Name": "HIT_GROUND_SPIN_LEFT",
+            "Index": 275,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 42,
+            "IASAFrame": 46,
+            "TotalTicks": 67
+        },
+        "276": {
+            "Name": "HIT_GROUND_SPIN_RIGHT",
+            "Index": 276,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 42,
+            "IASAFrame": 46,
+            "TotalTicks": 67
+        },
+        "280": {
+            "Name": "HIT_ASHIBARAI_NEAR",
+            "Index": 280,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 16
+        },
+        "281": {
+            "Name": "HIT_ASHIBARAI_FAR",
+            "Index": 281,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 16
+        },
+        "283": {
+            "Name": "HIT_ASHIBARAI_NEAR",
+            "Index": 283,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 37
+        },
+        "284": {
+            "Name": "HIT_ASHIBARAI_FAR",
+            "Index": 284,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 37
+        },
+        "290": {
+            "Name": "BLOW_VL",
+            "Index": 290,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 39
+        },
+        "291": {
+            "Name": "BLOW_VM",
+            "Index": 291,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 39
+        },
+        "292": {
+            "Name": "BLOW_VH",
+            "Index": 292,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 39
+        },
+        "295": {
+            "Name": "BLOW_FL",
+            "Index": 295,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 39
+        },
+        "296": {
+            "Name": "BLOW_FM",
+            "Index": 296,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 39
+        },
+        "297": {
+            "Name": "BLOW_FH",
+            "Index": 297,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 39
+        },
+        "300": {
+            "Name": "BLOW_SPIN_RL",
+            "Index": 300,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 19
+        },
+        "301": {
+            "Name": "BLOW_SPIN_RM",
+            "Index": 301,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 19
+        },
+        "302": {
+            "Name": "BLOW_SPIN_RH",
+            "Index": 302,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 19
+        },
+        "305": {
+            "Name": "BLOW_SPIN_LL",
+            "Index": 305,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 19
+        },
+        "306": {
+            "Name": "BLOW_SPIN_LM",
+            "Index": 306,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 19
+        },
+        "307": {
+            "Name": "BLOW_SPIN_LH",
+            "Index": 307,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 19
+        },
+        "310": {
+            "Name": "BLOW_WALL",
+            "Index": 310,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 10
+        },
+        "311": {
+            "Name": "BLOW_WALL_BOUND",
+            "Index": 311,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 41
+        },
+        "315": {
+            "Name": "BLOW_FALL",
+            "Index": 315,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 39
+        },
+        "316": {
+            "Name": "BLOW_FALL_BOUND",
+            "Index": 316,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 55
+        },
+        "320": {
+            "Name": "CRITICAL_BLOW_N",
+            "Index": 320,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 39
+        },
+        "321": {
+            "Name": "CRITICAL_BLOW_V",
+            "Index": 321,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 38
+        },
+        "322": {
+            "Name": "CRITICAL_BLOW_FALL",
+            "Index": 322,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 39
+        },
+        "323": {
+            "Name": "CRITICAL_BOUND",
+            "Index": 323,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 55
+        },
+        "324": {
+            "Name": "CRITICAL_SPIN_R",
+            "Index": 324,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 19
+        },
+        "325": {
+            "Name": "CRITICAL_SPIN_L",
+            "Index": 325,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 19
+        },
+        "330": {
+            "Name": "CRITICAL_BLOW_ROLL",
+            "Index": 330,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 45
+        },
+        "331": {
+            "Name": "CRITICAL_BOUND_COMBO_U",
+            "Index": 331,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 55
+        },
+        "335": {
+            "Name": "BLOW_BURY_S",
+            "Index": 335,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 40
+        },
+        "336": {
+            "Name": "BLOW_BURY_E",
+            "Index": 336,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 37
+        },
+        "340": {
+            "Name": "VREVERSAL_DMG",
+            "Index": 340,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 19,
+            "IASAFrame": 23,
+            "TotalTicks": 40
+        },
+        "350": {
+            "Name": "DMG_AIR_BACK",
+            "Index": 350,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 35
+        },
+        "351": {
+            "Name": "ABD_EX_SHORYU",
+            "Index": 351,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 36
+        },
+        "352": {
+            "Name": "BLOW_SPIN_LH",
+            "Index": 352,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 27
+        },
+        "353": {
+            "Name": "BLOW_FALL_BOUND",
+            "Index": 353,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 27
+        },
+        "355": {
+            "Name": "ABD_HEADBUTT",
+            "Index": 355,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 66
+        },
+        "356": {
+            "Name": "ABD_HEADBUTT_1",
+            "Index": 356,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 33,
+            "IASAFrame": 32,
+            "TotalTicks": 40
+        },
+        "358": {
+            "Name": "ABD_LARIAT",
+            "Index": 358,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 20,
+            "IASAFrame": -1,
+            "TotalTicks": 140
+        },
+        "359": {
+            "Name": "ABD_LARIAT_1",
+            "Index": 359,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": 26,
+            "TotalTicks": 40
+        },
+        "361": {
+            "Name": "HIT_TURN_DMG",
+            "Index": 361,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 42,
+            "IASAFrame": 46,
+            "TotalTicks": 67
+        },
+        "362": {
+            "Name": "HIT_TURN_DMG_1",
+            "Index": 362,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 47,
+            "IASAFrame": 51,
+            "TotalTicks": 67
+        },
+        "1640": {
+            "Name": "REVERSAL_RECORDING_RISE",
+            "Index": 1640,
+            "FirstHitboxFrame": 0,
+            "LastHitboxFrame": 28,
+            "IASAFrame": 29,
+            "TotalTicks": 54
+        },
+        "1641": {
+            "Name": "REVERSAL_RECORDING_GUARD_H",
+            "Index": 1641,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 20,
+            "IASAFrame": 21,
+            "TotalTicks": 22
+        },
+        "1642": {
+            "Name": "REVERSAL_RECORDING_GUARD_M",
+            "Index": 1642,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 12,
+            "IASAFrame": 13,
+            "TotalTicks": 16
+        },
+        "1643": {
+            "Name": "REVERSAL_RECORDING_GUARD_L",
+            "Index": 1643,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": 8,
+            "IASAFrame": 9,
+            "TotalTicks": 10
+        },
+        "1800": {
+            "Name": "STK_00_00",
+            "Index": 1800,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 165
+        },
+        "1801": {
+            "Name": "STK_00_01",
+            "Index": 1801,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 120
+        },
+        "1802": {
+            "Name": "STK_00_02",
+            "Index": 1802,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 120
+        },
+        "1803": {
+            "Name": "STK_01_00",
+            "Index": 1803,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 165
+        },
+        "1804": {
+            "Name": "STK_01_01",
+            "Index": 1804,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 185
+        },
+        "1805": {
+            "Name": "STK_03_00",
+            "Index": 1805,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 180
+        },
+        "1806": {
+            "Name": "STK_03_01",
+            "Index": 1806,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 180
+        },
+        "1807": {
+            "Name": "STK_07_00",
+            "Index": 1807,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 180
+        },
+        "1808": {
+            "Name": "STK_07_01",
+            "Index": 1808,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 165
+        },
+        "1809": {
+            "Name": "STK_06_00",
+            "Index": 1809,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 140
+        },
+        "1810": {
+            "Name": "STK_02_02",
+            "Index": 1810,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 180
+        },
+        "1811": {
+            "Name": "STK_10_00",
+            "Index": 1811,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 174
+        },
+        "1812": {
+            "Name": "STK_20_00",
+            "Index": 1812,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 165
+        },
+        "1813": {
+            "Name": "STK_30_00",
+            "Index": 1813,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 120
+        },
+        "1814": {
+            "Name": "STK_40_00",
+            "Index": 1814,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 170
+        },
+        "1815": {
+            "Name": "STK_50_00",
+            "Index": 1815,
+            "FirstHitboxFrame": -1,
+            "LastHitboxFrame": -1,
+            "IASAFrame": -1,
+            "TotalTicks": 165
+        }
+    },
+    "HitboxEffects": {}
+}

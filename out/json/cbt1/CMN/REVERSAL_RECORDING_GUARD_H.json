@@ -1,0 +1,185 @@
+{
+    "Name": "REVERSAL_RECORDING_GUARD_H",
+    "Index": 1641,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": 20,
+    "IASAFrame": 21,
+    "TotalTicks": 22,
+    "Commands": {
+        "3": [
+            {
+                "TickStart": 0,
+                "TickEnd": 22,
+                "Data": {
+                    "CancelList": 21,
+                    "Type": "BUTTON_BUFFER"
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 22,
+                "Data": {
+                    "CancelList": 21,
+                    "Type": "HIT_CANCEL"
+                }
+            }
+        ],
+        "7": [
+            {
+                "TickStart": 0,
+                "TickEnd": 22,
+                "Data": [
+                    -0.25
+                ]
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 20,
+                "Data": {
+                    "Index": 21,
+                    "Type": 0,
+                    "FrameStart": 0,
+                    "FrameEnd": 15,
+                    "Unk1": 0,
+                    "Unk2": 48
+                }
+            },
+            {
+                "TickStart": 20,
+                "TickEnd": 22,
+                "Data": {
+                    "Index": 21,
+                    "Type": 0,
+                    "FrameStart": 15,
+                    "FrameEnd": 17,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 22,
+                "Data": {
+                    "Index": 8,
+                    "Type": 4,
+                    "FrameStart": 0,
+                    "FrameEnd": 0,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ],
+        "11": [
+            {
+                "TickStart": 9,
+                "TickEnd": 10,
+                "Data": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    18,
+                    0.0,
+                    0.0,
+                    0.0,
+                    2.802596928649634e-45,
+                    1.0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 9,
+                "TickEnd": 10,
+                "Data": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    10,
+                    0.0,
+                    0.0,
+                    0.0,
+                    2.802596928649634e-45,
+                    1.0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 6,
+                "TickEnd": 7,
+                "Data": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    18,
+                    0.0,
+                    0.0,
+                    0.0,
+                    2.802596928649634e-45,
+                    1.0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 6,
+                "TickEnd": 7,
+                "Data": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    10,
+                    0.0,
+                    0.0,
+                    0.0,
+                    2.802596928649634e-45,
+                    1.0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 3,
+                "TickEnd": 4,
+                "Data": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    18,
+                    0.0,
+                    0.0,
+                    0.0,
+                    2.802596928649634e-45,
+                    1.0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 3,
+                "TickEnd": 4,
+                "Data": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    10,
+                    0.0,
+                    0.0,
+                    0.0,
+                    2.802596928649634e-45,
+                    1.0,
+                    0
+                ]
+            }
+        ]
+    }
+}

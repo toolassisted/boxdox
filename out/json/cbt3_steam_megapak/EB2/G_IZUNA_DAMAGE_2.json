@@ -1,0 +1,60 @@
+{
+    "Name": "G_IZUNA_DAMAGE_2",
+    "Index": 978,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 25,
+    "Commands": {
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 4,
+                "Data": {
+                    "Index": 5,
+                    "Type": 7,
+                    "FrameStart": 47,
+                    "FrameEnd": 53,
+                    "Unk1": 0,
+                    "Unk2": 64
+                }
+            },
+            {
+                "TickStart": 4,
+                "TickEnd": 14,
+                "Data": {
+                    "Index": 5,
+                    "Type": 7,
+                    "FrameStart": 55,
+                    "FrameEnd": 58,
+                    "Unk1": 0,
+                    "Unk2": 48
+                }
+            },
+            {
+                "TickStart": 14,
+                "TickEnd": 25,
+                "Data": {
+                    "Index": 5,
+                    "Type": 7,
+                    "FrameStart": 58,
+                    "FrameEnd": 69,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 25,
+                "Data": {
+                    "Index": 42,
+                    "Type": 4,
+                    "FrameStart": 0,
+                    "FrameEnd": 0,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ]
+    }
+}

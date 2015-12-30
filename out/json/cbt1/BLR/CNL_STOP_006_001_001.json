@@ -1,0 +1,24 @@
+{
+    "Name": "CNL_STOP_006_001_001",
+    "Index": 1951,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 329,
+    "Commands": {
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 329,
+                "Data": {
+                    "Index": 0,
+                    "Type": 2,
+                    "FrameStart": 0,
+                    "FrameEnd": 1,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ]
+    }
+}

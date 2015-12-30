@@ -1,0 +1,306 @@
+{
+    "Name": "JUMP_F",
+    "Index": 8,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 36,
+    "Commands": {
+        "1": [
+            {
+                "TickStart": 0,
+                "TickEnd": 36,
+                "Data": {
+                    "Flag1": "AIR|0x200=>0x204",
+                    "Flag2": "0x0"
+                }
+            }
+        ],
+        "2": [
+            {
+                "TickStart": 0,
+                "TickEnd": 1,
+                "Data": {
+                    "Force": 0.0560000017285347,
+                    "Flags": "VEL_X=>0x1"
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 1,
+                "Data": {
+                    "Force": 0.2240000069141388,
+                    "Flags": "VEL_Y=>0x10"
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 1,
+                "Data": {
+                    "Force": -0.01140000019222498,
+                    "Flags": "ACCEL_Y=>0x10000"
+                }
+            },
+            {
+                "TickStart": 10,
+                "TickEnd": 11,
+                "Data": {
+                    "Force": -0.013100000098347664,
+                    "Flags": "ACCEL_Y=>0x10000"
+                }
+            }
+        ],
+        "3": [
+            {
+                "TickStart": 0,
+                "TickEnd": 13,
+                "Data": {
+                    "CancelList": 65,
+                    "Type": "BUTTON_BUFFER",
+                    "Moves": [
+                        "FAIR_TATSUMAKI_L",
+                        "FAIR_TATSUMAKI_M",
+                        "FAIR_TATSUMAKI_H",
+                        "AIR_TATSUMAKI_EX"
+                    ]
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 13,
+                "Data": {
+                    "CancelList": 65,
+                    "Type": "HIT_CANCEL",
+                    "Moves": [
+                        "FAIR_TATSUMAKI_L",
+                        "FAIR_TATSUMAKI_M",
+                        "FAIR_TATSUMAKI_H",
+                        "AIR_TATSUMAKI_EX"
+                    ]
+                }
+            },
+            {
+                "TickStart": 13,
+                "TickEnd": 36,
+                "Data": {
+                    "CancelList": 64,
+                    "Type": "BUTTON_BUFFER",
+                    "Moves": [
+                        "AIR_TATSUMAKI_L",
+                        "AIR_TATSUMAKI_M",
+                        "AIR_TATSUMAKI_H",
+                        "AIR_TATSUMAKI_EX"
+                    ]
+                }
+            },
+            {
+                "TickStart": 13,
+                "TickEnd": 36,
+                "Data": {
+                    "CancelList": 64,
+                    "Type": "HIT_CANCEL",
+                    "Moves": [
+                        "AIR_TATSUMAKI_L",
+                        "AIR_TATSUMAKI_M",
+                        "AIR_TATSUMAKI_H",
+                        "AIR_TATSUMAKI_EX"
+                    ]
+                }
+            }
+        ],
+        "6": [
+            {
+                "TickStart": 0,
+                "TickEnd": 36,
+                "Data": {
+                    "X": -0.3499999940395355,
+                    "Y": 0.9000000357627869,
+                    "Rot": 0.0,
+                    "Width": 0.699999988079071,
+                    "Height": 1.0,
+                    "Unk1": 0,
+                    "Unk2": 25,
+                    "Unk3": 25,
+                    "Unk4": 25,
+                    "Unk5": 0,
+                    "Unk6": 0,
+                    "Unk7": 0,
+                    "Unk8": 0,
+                    "Unk9": 0,
+                    "Unk10": 3,
+                    "Unk11": 0,
+                    "Unk12": 0,
+                    "Unk13": 0,
+                    "Unk14": 4,
+                    "Unk15": 0,
+                    "Unk16": 1.0
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 36,
+                "Data": {
+                    "X": -0.25,
+                    "Y": 1.0,
+                    "Rot": 0.0,
+                    "Width": 0.5,
+                    "Height": 0.7999999523162842,
+                    "Unk1": 0,
+                    "Unk2": 25,
+                    "Unk3": 25,
+                    "Unk4": 25,
+                    "Unk5": 0,
+                    "Unk6": 0,
+                    "Unk7": 0,
+                    "Unk8": 0,
+                    "Unk9": 0,
+                    "Unk10": 4,
+                    "Unk11": 0,
+                    "Unk12": 0,
+                    "Unk13": 0,
+                    "Unk14": 4,
+                    "Unk15": 0,
+                    "Unk16": 1.0
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 36,
+                "Data": {
+                    "X": -0.3499999940395355,
+                    "Y": 0.4000000059604645,
+                    "Rot": 0.0,
+                    "Width": 0.699999988079071,
+                    "Height": 0.5,
+                    "Unk1": 0,
+                    "Unk2": 25,
+                    "Unk3": 25,
+                    "Unk4": 25,
+                    "Unk5": 0,
+                    "Unk6": 0,
+                    "Unk7": 0,
+                    "Unk8": 0,
+                    "Unk9": 0,
+                    "Unk10": 1,
+                    "Unk11": 0,
+                    "Unk12": 0,
+                    "Unk13": 0,
+                    "Unk14": 0,
+                    "Unk15": 0,
+                    "Unk16": 1.0
+                }
+            }
+        ],
+        "7": [
+            {
+                "TickStart": 0,
+                "TickEnd": 36,
+                "Data": [
+                    -0.25
+                ]
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 36,
+                "Data": {
+                    "Index": 12,
+                    "Type": 2,
+                    "FrameStart": 0,
+                    "FrameEnd": 36,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 36,
+                "Data": {
+                    "Index": 7,
+                    "Type": 4,
+                    "FrameStart": 1,
+                    "FrameEnd": 7,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ],
+        "10": [
+            {
+                "TickStart": 0,
+                "TickEnd": 1,
+                "Data": [
+                    0,
+                    0,
+                    -24,
+                    3,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 1,
+                "Data": [
+                    0,
+                    0,
+                    -124,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 16,
+                "TickEnd": 17,
+                "Data": [
+                    0,
+                    0,
+                    10,
+                    0,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ],
+        "11": [
+            {
+                "TickStart": 0,
+                "TickEnd": 1,
+                "Data": [
+                    0,
+                    0,
+                    1,
+                    8,
+                    0,
+                    0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "Name": "INTRO_REVENGE_WIN_1",
+    "Index": 1610,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 360,
+    "Commands": {
+        "1": [
+            {
+                "TickStart": 0,
+                "TickEnd": 360,
+                "Data": {
+                    "Flag1": "=>0x0",
+                    "Flag2": "0x30a"
+                }
+            }
+        ],
+        "4": [
+            {
+                "TickStart": 0,
+                "TickEnd": 1,
+                "Data": [
+                    0,
+                    10,
+                    16,
+                    36,
+                    4,
+                    1000,
+                    16,
+                    88,
+                    4,
+                    0,
+                    1001,
+                    16,
+                    140,
+                    0
+                ]
+            },
+            {
+                "TickStart": 195,
+                "TickEnd": 196,
+                "Data": [
+                    1,
+                    1601,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 350,
+                "TickEnd": 351,
+                "Data": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 360,
+                "Data": {
+                    "Index": 35,
+                    "Type": 5,
+                    "FrameStart": 0,
+                    "FrameEnd": 360,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 360,
+                "Data": {
+                    "Index": 40,
+                    "Type": 3,
+                    "FrameStart": 0,
+                    "FrameEnd": 360,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ]
+    }
+}

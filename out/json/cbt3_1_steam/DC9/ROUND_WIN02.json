@@ -1,0 +1,218 @@
+{
+    "Name": "ROUND_WIN02",
+    "Index": 1001,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": 194,
+    "IASAFrame": -1,
+    "TotalTicks": 314,
+    "Commands": {
+        "1": [
+            {
+                "TickStart": 0,
+                "TickEnd": 330,
+                "Data": {
+                    "Flag1": "=>0x0",
+                    "Flag2": "0x0"
+                }
+            }
+        ],
+        "4": [
+            {
+                "TickStart": 0,
+                "TickEnd": 1,
+                "Data": [
+                    0,
+                    25,
+                    1,
+                    72,
+                    0,
+                    0,
+                    4,
+                    64,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 1,
+                "Data": [
+                    0,
+                    1001,
+                    0,
+                    0,
+                    0,
+                    0,
+                    4,
+                    44,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 1,
+                "Data": [
+                    400,
+                    1,
+                    0,
+                    1010,
+                    0,
+                    1,
+                    0,
+                    1,
+                    1010,
+                    0,
+                    120,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 1,
+                "Data": [
+                    0,
+                    194,
+                    0,
+                    0,
+                    194,
+                    194,
+                    0,
+                    314,
+                    95,
+                    2,
+                    1,
+                    195,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 194,
+                "TickEnd": 195,
+                "Data": [
+                    48,
+                    16,
+                    3,
+                    20643841,
+                    0,
+                    32,
+                    0,
+                    131168,
+                    0,
+                    120,
+                    0,
+                    0,
+                    16,
+                    0
+                ]
+            },
+            {
+                "TickStart": 194,
+                "TickEnd": 195,
+                "Data": [
+                    0,
+                    1,
+                    0,
+                    35,
+                    36,
+                    0,
+                    12,
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0
+                ]
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 194,
+                "Data": {
+                    "Index": 95,
+                    "Type": 2,
+                    "FrameStart": 1,
+                    "FrameEnd": 195,
+                    "Unk1": 0,
+                    "Unk2": 48
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 194,
+                "Data": {
+                    "Index": 16,
+                    "Type": 3,
+                    "FrameStart": 1,
+                    "FrameEnd": 315,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 194,
+                "TickEnd": 314,
+                "Data": {
+                    "Index": 96,
+                    "Type": 2,
+                    "FrameStart": 0,
+                    "FrameEnd": 120,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ],
+        "10": [
+            {
+                "TickStart": 0,
+                "TickEnd": 1,
+                "Data": [
+                    0,
+                    0,
+                    12,
+                    0,
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 35,
+                "TickEnd": 36,
+                "Data": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ]
+    }
+}

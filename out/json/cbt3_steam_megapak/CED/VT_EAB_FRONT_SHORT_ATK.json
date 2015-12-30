@@ -1,0 +1,160 @@
+{
+    "Name": "VT_EAB_FRONT_SHORT_ATK",
+    "Index": 770,
+    "FirstHitboxFrame": 2,
+    "LastHitboxFrame": 6,
+    "IASAFrame": -1,
+    "TotalTicks": 20,
+    "Commands": {
+        "0": [
+            {
+                "TickStart": 11,
+                "TickEnd": 20,
+                "Data": [
+                    8,
+                    "VT_EAB_BACK_LONG_LEAVE",
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    770,
+                    17,
+                    0
+                ]
+            },
+            {
+                "TickStart": 18,
+                "TickEnd": 20,
+                "Data": [
+                    0,
+                    "STAND",
+                    0,
+                    0,
+                    0,
+                    20,
+                    516,
+                    6,
+                    0,
+                    10
+                ]
+            }
+        ],
+        "1": [
+            {
+                "TickStart": 0,
+                "TickEnd": 20,
+                "Data": {
+                    "Flag1": "AIR|0x60200=>0x60204",
+                    "Flag2": "0x0"
+                }
+            }
+        ],
+        "2": [
+            {
+                "TickStart": 10,
+                "TickEnd": 11,
+                "Data": {
+                    "Force": -0.009999999776482582,
+                    "Flags": "ACCEL_Y=>0x10000"
+                }
+            }
+        ],
+        "4": [
+            {
+                "TickStart": 0,
+                "TickEnd": 20,
+                "Data": [
+                    0,
+                    75,
+                    16,
+                    12,
+                    0,
+                    4,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ],
+        "5": [
+            {
+                "TickStart": 0,
+                "TickEnd": 6,
+                "Data": {
+                    "X": 0.25,
+                    "Y": 0.5,
+                    "Rot": 0.0,
+                    "Width": 2.0,
+                    "Height": 0.4000000059604645,
+                    "Unk1": 0,
+                    "Unk2": 25,
+                    "Unk3": 25,
+                    "Unk4": 25,
+                    "Unk5": 0,
+                    "Unk6": 72,
+                    "Unk7": 0,
+                    "Id": 0,
+                    "Unk9": 0,
+                    "Unk92": 1,
+                    "HitLevel": "MID",
+                    "HitboxType": "PROXIMITY_GUARD",
+                    "JP?": 1,
+                    "JP2?": 1,
+                    "Unk12": 0,
+                    "HitEffect": -1,
+                    "Unk14": 0,
+                    "Unk15": 0
+                }
+            },
+            {
+                "TickStart": 2,
+                "TickEnd": 6,
+                "Data": {
+                    "X": -0.30000001192092896,
+                    "Y": 0.25,
+                    "Rot": 0.0,
+                    "Width": 1.2999999523162842,
+                    "Height": 0.6000000238418579,
+                    "Unk1": 0,
+                    "Unk2": 25,
+                    "Unk3": 25,
+                    "Unk4": 25,
+                    "Unk5": 0,
+                    "Unk6": 0,
+                    "Unk7": 0,
+                    "Id": 0,
+                    "Unk9": 80,
+                    "Unk92": 1,
+                    "HitLevel": "MID",
+                    "HitboxType": "NORMAL",
+                    "JP?": 10,
+                    "JP2?": 1,
+                    "Unk12": 0,
+                    "HitEffect": 83,
+                    "Unk14": 0,
+                    "Unk15": 1
+                }
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 20,
+                "Data": {
+                    "Index": 82,
+                    "Type": 2,
+                    "FrameStart": 0,
+                    "FrameEnd": 20,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ]
+    }
+}

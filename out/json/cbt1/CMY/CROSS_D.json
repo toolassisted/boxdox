@@ -1,0 +1,66 @@
+{
+    "Name": "CROSS_D",
+    "Index": 961,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 42,
+    "Commands": {
+        "0": [
+            {
+                "TickStart": 36,
+                "TickEnd": 42,
+                "Data": [
+                    8,
+                    "CROSS_D_LAND",
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    42,
+                    0
+                ]
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 42,
+                "Data": {
+                    "Index": 4,
+                    "Type": 7,
+                    "FrameStart": 0,
+                    "FrameEnd": 42,
+                    "Unk1": 0,
+                    "Unk2": 48
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 3,
+                "Data": {
+                    "Index": 26,
+                    "Type": 4,
+                    "FrameStart": 0,
+                    "FrameEnd": 2,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 3,
+                "TickEnd": 42,
+                "Data": {
+                    "Index": 40,
+                    "Type": 4,
+                    "FrameStart": 0,
+                    "FrameEnd": 2,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ]
+    }
+}

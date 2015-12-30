@@ -1,0 +1,141 @@
+{
+    "Name": "SPF_RESTAURANT",
+    "Index": 1800,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 165,
+    "Commands": {
+        "1": [
+            {
+                "TickStart": 0,
+                "TickEnd": 165,
+                "Data": {
+                    "Flag1": "0x800000=>0x800000",
+                    "Flag2": "0x30a"
+                }
+            }
+        ],
+        "4": [
+            {
+                "TickStart": 75,
+                "TickEnd": 76,
+                "Data": [
+                    0,
+                    68,
+                    8,
+                    24,
+                    0,
+                    68,
+                    8,
+                    44,
+                    0,
+                    0,
+                    1,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "TickStart": 135,
+                "TickEnd": 136,
+                "Data": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 165,
+                "Data": {
+                    "Index": 0,
+                    "Type": 11,
+                    "FrameStart": 0,
+                    "FrameEnd": 165,
+                    "Unk1": 0,
+                    "Unk2": 64
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 165,
+                "Data": {
+                    "Index": 0,
+                    "Type": 12,
+                    "FrameStart": 0,
+                    "FrameEnd": 165,
+                    "Unk1": 0,
+                    "Unk2": 48
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 41,
+                "Data": {
+                    "Index": 32,
+                    "Type": 4,
+                    "FrameStart": 0,
+                    "FrameEnd": 0,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 41,
+                "TickEnd": 165,
+                "Data": {
+                    "Index": 42,
+                    "Type": 4,
+                    "FrameStart": 0,
+                    "FrameEnd": 0,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ],
+        "9": [
+            {
+                "TickStart": 164,
+                "TickEnd": 165,
+                "Data": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    -128,
+                    63
+                ]
+            }
+        ],
+        "12": [
+            {
+                "TickStart": 0,
+                "TickEnd": 165,
+                "Data": [
+                    -0.30000001192092896,
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "Name": "DMG_AIR_BACK",
+    "Index": 350,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 35,
+    "Commands": {
+        "1": [
+            {
+                "TickStart": 0,
+                "TickEnd": 35,
+                "Data": {
+                    "Flag1": "AIR|0x200=>0x204",
+                    "Flag2": "0x0"
+                }
+            }
+        ],
+        "7": [
+            {
+                "TickStart": 0,
+                "TickEnd": 35,
+                "Data": [
+                    -0.25
+                ]
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 35,
+                "Data": {
+                    "Index": 190,
+                    "Type": 0,
+                    "FrameStart": 3,
+                    "FrameEnd": 38,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 35,
+                "Data": {
+                    "Index": 34,
+                    "Type": 4,
+                    "FrameStart": 0,
+                    "FrameEnd": 1,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ]
+    }
+}

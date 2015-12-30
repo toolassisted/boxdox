@@ -1,0 +1,24 @@
+{
+    "Name": " New Data - 1912 ",
+    "Index": 1912,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 100,
+    "Commands": {
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 40,
+                "Data": {
+                    "Index": 100,
+                    "Type": 0,
+                    "FrameStart": 0,
+                    "FrameEnd": 40,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ]
+    }
+}

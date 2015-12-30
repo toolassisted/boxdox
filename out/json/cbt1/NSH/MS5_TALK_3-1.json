@@ -1,0 +1,49 @@
+{
+    "Name": "MS5_TALK_3-1",
+    "Index": 1920,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": 361,
+    "IASAFrame": -1,
+    "TotalTicks": 434,
+    "Commands": {
+        "7": [
+            {
+                "TickStart": 0,
+                "TickEnd": 433,
+                "Data": [
+                    -0.25
+                ]
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 434,
+                "Data": {
+                    "Index": 0,
+                    "Type": 2,
+                    "FrameStart": 0,
+                    "FrameEnd": 434,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ],
+        "9": [
+            {
+                "TickStart": 0,
+                "TickEnd": 10,
+                "Data": [
+                    2,
+                    0,
+                    0,
+                    0,
+                    -51,
+                    -52,
+                    -52,
+                    61
+                ]
+            }
+        ]
+    }
+}

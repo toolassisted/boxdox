@@ -1,0 +1,88 @@
+{
+    "Name": "COUNTDOWN_MAIN",
+    "Index": 1060,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 120,
+    "Commands": {
+        "1": [
+            {
+                "TickStart": 0,
+                "TickEnd": 120,
+                "Data": {
+                    "Flag1": "=>0x0",
+                    "Flag2": "0x0"
+                }
+            }
+        ],
+        "4": [
+            {
+                "TickStart": 0,
+                "TickEnd": 1,
+                "Data": [
+                    0,
+                    6,
+                    4,
+                    24,
+                    0,
+                    1001,
+                    1,
+                    28,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 1,
+                "Data": [
+                    -150,
+                    90,
+                    0,
+                    0,
+                    120,
+                    0,
+                    0,
+                    120,
+                    93,
+                    2,
+                    0,
+                    120,
+                    0,
+                    0
+                ]
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 120,
+                "Data": {
+                    "Index": 93,
+                    "Type": 2,
+                    "FrameStart": 0,
+                    "FrameEnd": 120,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 120,
+                "Data": {
+                    "Index": 26,
+                    "Type": 3,
+                    "FrameStart": 0,
+                    "FrameEnd": 120,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ]
+    }
+}

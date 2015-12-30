@@ -1,0 +1,80 @@
+{
+    "Name": "STK_02_02",
+    "Index": 1810,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 180,
+    "Commands": {
+        "1": [
+            {
+                "TickStart": 0,
+                "TickEnd": 180,
+                "Data": {
+                    "Flag1": "0x800000=>0x800000",
+                    "Flag2": "0x30a"
+                }
+            }
+        ],
+        "4": [
+            {
+                "TickStart": 0,
+                "TickEnd": 1,
+                "Data": [
+                    0,
+                    68,
+                    16,
+                    12,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 180,
+                "Data": {
+                    "Index": 1,
+                    "Type": 11,
+                    "FrameStart": 0,
+                    "FrameEnd": 180,
+                    "Unk1": 0,
+                    "Unk2": 48
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 180,
+                "Data": {
+                    "Index": 1,
+                    "Type": 12,
+                    "FrameStart": 0,
+                    "FrameEnd": 180,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 180,
+                "Data": {
+                    "Index": 42,
+                    "Type": 4,
+                    "FrameStart": 0,
+                    "FrameEnd": 0,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ]
+    }
+}

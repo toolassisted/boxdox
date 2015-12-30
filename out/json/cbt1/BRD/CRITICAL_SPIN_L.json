@@ -1,0 +1,130 @@
+{
+    "Name": "CRITICAL_SPIN_L",
+    "Index": 325,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 19,
+    "Commands": {
+        "0": [
+            {
+                "TickStart": 18,
+                "TickEnd": 19,
+                "Data": [
+                    0,
+                    -1,
+                    8,
+                    0,
+                    1,
+                    0,
+                    8,
+                    -1,
+                    21,
+                    1
+                ]
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 19,
+                "Data": [
+                    1,
+                    "STAND",
+                    0,
+                    0,
+                    0,
+                    19,
+                    516,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ],
+        "1": [
+            {
+                "TickStart": 0,
+                "TickEnd": 19,
+                "Data": {
+                    "Flag1": "AIR|0x200=>0x204",
+                    "Flag2": "0x0"
+                }
+            }
+        ],
+        "6": [
+            {
+                "TickStart": 0,
+                "TickEnd": 19,
+                "Data": {
+                    "X": -0.4000000059604645,
+                    "Y": 0.30000001192092896,
+                    "Rot": 0.0,
+                    "Width": 0.800000011920929,
+                    "Height": 1.2000000476837158,
+                    "Unk1": 0,
+                    "Unk2": 25,
+                    "Unk3": 25,
+                    "Unk4": 25,
+                    "Unk5": 0,
+                    "Unk6": 0,
+                    "Unk7": 0,
+                    "Unk8": 0,
+                    "Unk9": 0,
+                    "Unk10": 3,
+                    "Unk11": 0,
+                    "Unk12": 0,
+                    "Unk13": 0,
+                    "Unk14": 4,
+                    "Unk15": 0,
+                    "Unk16": 1.0
+                }
+            }
+        ],
+        "7": [
+            {
+                "TickStart": 0,
+                "TickEnd": 19,
+                "Data": [
+                    -0.30000001192092896
+                ]
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 7,
+                "Data": {
+                    "Index": 106,
+                    "Type": 0,
+                    "FrameStart": 0,
+                    "FrameEnd": 7,
+                    "Unk1": 0,
+                    "Unk2": 48
+                }
+            },
+            {
+                "TickStart": 7,
+                "TickEnd": 19,
+                "Data": {
+                    "Index": 107,
+                    "Type": 0,
+                    "FrameStart": 0,
+                    "FrameEnd": 12,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 19,
+                "Data": {
+                    "Index": 35,
+                    "Type": 4,
+                    "FrameStart": 0,
+                    "FrameEnd": 1,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ]
+    }
+}

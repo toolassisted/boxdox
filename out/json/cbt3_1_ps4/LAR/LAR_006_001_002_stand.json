@@ -1,0 +1,86 @@
+{
+    "Name": "LAR_006_001_002_stand",
+    "Index": 1952,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 340,
+    "Commands": {
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 100,
+                "Data": {
+                    "Index": 0,
+                    "Type": 5,
+                    "FrameStart": 30,
+                    "FrameEnd": 30,
+                    "Unk1": 0,
+                    "Unk2": 48
+                }
+            },
+            {
+                "TickStart": 100,
+                "TickEnd": 200,
+                "Data": {
+                    "Index": 0,
+                    "Type": 5,
+                    "FrameStart": 55,
+                    "FrameEnd": 0,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 200,
+                "TickEnd": 260,
+                "Data": {
+                    "Index": 0,
+                    "Type": 2,
+                    "FrameStart": 0,
+                    "FrameEnd": 50,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ],
+        "10": [
+            {
+                "TickStart": 156,
+                "TickEnd": 157,
+                "Data": [
+                    0,
+                    0,
+                    11,
+                    0,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 192,
+                "TickEnd": 193,
+                "Data": [
+                    0,
+                    0,
+                    -20,
+                    3,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ]
+    }
+}

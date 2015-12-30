@@ -1,0 +1,24 @@
+{
+    "Name": "BLR_STOP_006_002_001",
+    "Index": 1955,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 500,
+    "Commands": {
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 500,
+                "Data": {
+                    "Index": 0,
+                    "Type": 2,
+                    "FrameStart": 0,
+                    "FrameEnd": 1,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ]
+    }
+}

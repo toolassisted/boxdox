@@ -1,0 +1,24 @@
+{
+    "Name": "ZGF_STOP_004_001_002",
+    "Index": 1954,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 122,
+    "Commands": {
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 122,
+                "Data": {
+                    "Index": 0,
+                    "Type": 2,
+                    "FrameStart": 0,
+                    "FrameEnd": 1,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ]
+    }
+}

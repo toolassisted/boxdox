@@ -1,0 +1,68 @@
+{
+    "Name": "INTRO_REVENGE_LOSE_1",
+    "Index": 1620,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": 210,
+    "IASAFrame": -1,
+    "TotalTicks": 90,
+    "Commands": {
+        "1": [
+            {
+                "TickStart": 0,
+                "TickEnd": 90,
+                "Data": {
+                    "Flag1": "=>0x0",
+                    "Flag2": "0x30a"
+                }
+            }
+        ],
+        "4": [
+            {
+                "TickStart": 0,
+                "TickEnd": 1,
+                "Data": [
+                    0,
+                    71,
+                    8,
+                    12,
+                    1,
+                    400,
+                    0,
+                    200,
+                    1500,
+                    0,
+                    1500,
+                    0,
+                    15,
+                    0
+                ]
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 90,
+                "Data": {
+                    "Index": 90,
+                    "Type": 2,
+                    "FrameStart": 0,
+                    "FrameEnd": 61,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 90,
+                "Data": {
+                    "Index": 0,
+                    "Type": 3,
+                    "FrameStart": 10,
+                    "FrameEnd": 14,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "Name": "MATCH_WIN_REVENGE_STAGE_ALL_1",
+    "Index": 1765,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": 210,
+    "IASAFrame": -1,
+    "TotalTicks": 89,
+    "Commands": {
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 89,
+                "Data": {
+                    "Index": 141,
+                    "Type": 2,
+                    "FrameStart": 257,
+                    "FrameEnd": 347,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 89,
+                "Data": {
+                    "Index": 0,
+                    "Type": 3,
+                    "FrameStart": 5,
+                    "FrameEnd": 10,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ],
+        "9": [
+            {
+                "TickStart": 0,
+                "TickEnd": 5,
+                "Data": [
+                    2,
+                    0,
+                    0,
+                    0,
+                    -51,
+                    -52,
+                    76,
+                    62
+                ]
+            }
+        ],
+        "11": [
+            {
+                "TickStart": 5,
+                "TickEnd": 6,
+                "Data": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    10,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0
+                ]
+            }
+        ]
+    }
+}

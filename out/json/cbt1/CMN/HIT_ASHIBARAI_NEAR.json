@@ -1,0 +1,164 @@
+{
+    "Name": "HIT_ASHIBARAI_NEAR",
+    "Index": 283,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 37,
+    "Commands": {
+        "1": [
+            {
+                "TickStart": 0,
+                "TickEnd": 33,
+                "Data": {
+                    "Flag1": "AIR|0x200=>0x204",
+                    "Flag2": "0x0"
+                }
+            }
+        ],
+        "4": [
+            {
+                "TickStart": 16,
+                "TickEnd": 17,
+                "Data": [
+                    3,
+                    1000,
+                    8,
+                    36,
+                    3,
+                    1001,
+                    8,
+                    56,
+                    3,
+                    0,
+                    1000,
+                    8,
+                    76,
+                    0
+                ]
+            },
+            {
+                "TickStart": 16,
+                "TickEnd": 17,
+                "Data": [
+                    1005,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    50,
+                    0
+                ]
+            },
+            {
+                "TickStart": 33,
+                "TickEnd": 34,
+                "Data": [
+                    300,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1004,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ],
+        "7": [
+            {
+                "TickStart": 0,
+                "TickEnd": 14,
+                "Data": [
+                    -0.25
+                ]
+            },
+            {
+                "TickStart": 14,
+                "TickEnd": 37,
+                "Data": [
+                    0.0
+                ]
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 37,
+                "Data": {
+                    "Index": 120,
+                    "Type": 0,
+                    "FrameStart": 0,
+                    "FrameEnd": 37,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 37,
+                "Data": {
+                    "Index": 32,
+                    "Type": 4,
+                    "FrameStart": 0,
+                    "FrameEnd": 1,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ],
+        "10": [
+            {
+                "TickStart": 16,
+                "TickEnd": 17,
+                "Data": [
+                    0,
+                    0,
+                    -48,
+                    7,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ],
+        "11": [
+            {
+                "TickStart": 16,
+                "TickEnd": 17,
+                "Data": [
+                    0,
+                    0,
+                    1,
+                    18,
+                    0,
+                    -1,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0
+                ]
+            }
+        ]
+    }
+}

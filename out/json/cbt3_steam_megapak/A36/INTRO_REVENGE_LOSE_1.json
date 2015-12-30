@@ -1,0 +1,166 @@
+{
+    "Name": "INTRO_REVENGE_LOSE_1",
+    "Index": 1620,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 360,
+    "Commands": {
+        "1": [
+            {
+                "TickStart": 0,
+                "TickEnd": 360,
+                "Data": {
+                    "Flag1": "=>0x0",
+                    "Flag2": "0xa"
+                }
+            }
+        ],
+        "4": [
+            {
+                "TickStart": 153,
+                "TickEnd": 154,
+                "Data": [
+                    4,
+                    1000,
+                    16,
+                    48,
+                    4,
+                    1001,
+                    16,
+                    100,
+                    4,
+                    0,
+                    1000,
+                    16,
+                    152,
+                    0
+                ]
+            },
+            {
+                "TickStart": 176,
+                "TickEnd": 177,
+                "Data": [
+                    4,
+                    1001,
+                    16,
+                    204,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 191,
+                "TickEnd": 192,
+                "Data": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 255,
+                "TickEnd": 256,
+                "Data": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 360,
+                "Data": {
+                    "Index": 5,
+                    "Type": 5,
+                    "FrameStart": 0,
+                    "FrameEnd": 360,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 360,
+                "Data": {
+                    "Index": 4,
+                    "Type": 3,
+                    "FrameStart": 0,
+                    "FrameEnd": 360,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ],
+        "10": [
+            {
+                "TickStart": 146,
+                "TickEnd": 147,
+                "Data": [
+                    0,
+                    0,
+                    6,
+                    0,
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "TickStart": 201,
+                "TickEnd": 202,
+                "Data": [
+                    0,
+                    0,
+                    7,
+                    0,
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ]
+    }
+}

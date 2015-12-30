@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One");
+
+body
+{
+    padding-top: 70px;
+}
+.navbar-brand
+{
+    font-family: "Fredoka One";
+    font-size: 150%;
+    color: white !important;
+    text-shadow: grey 0px 01px 4px;
+}
+#viewport
+{
+    position:absolute;
+    top:50px;
+    bottom:0px;
+    right:0px;
+    left:0px;
+}
+#selector
+{
+    background:#eee;
+    width:200px;
+    padding:2px;
+}
+#data
+{
+    background:#eee;
+    position:absolute;
+    width:200px;
+}
+#timeline
+{
+    background:#fefefe;
+    height:150px;
+    padding:0px;
+}
+#visualization
+{
+    min-height:100px;
+}
+#scripts
+{
+    overflow-y:scroll;
+    overflow-x:hidden;
+    position:absolute;
+    top:50px;
+    bottom:0px;
+    right:0px;
+    left:2px;
+    font-size:80%
+}
+#main
+{
+    background:#000;
+    position:absolute;
+    color:white;
+    padding:0px;
+}
+#toolbar
+{
+    text-align:center;
+    z-index:100;
+    position:absolute;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    padding-bottom:5px;
+}
+#canvas
+{
+    display: block;
+    margin:0 auto;
+}
+.list-group-item
+{
+    padding:4px 4px;
+}
+.vis-item .vis-item-content
+{
+    font-size:80%;
+    padding:2px;
+}
+.vis-background.startup
+{
+    background:#F5F9B3;
+}
+.vis-background.active
+{
+   background:#F5D5D9;
+}
+.hasHitbox
+{
+   background:#350208;
+}
+.vis-background.recovery
+{
+   background:#D5FFE4;
+}
+table.stats
+{
+    border: 2px solid #999;
+}
+table.stats tr:nth-child(1) th
+{
+    border-right:2px solid #999;
+}
+table.stats td:nth-child(1),table.stats th:nth-child(1),
+table.stats td:nth-child(5),table.stats th:nth-child(5),
+table.stats td:nth-child(9),table.stats th:nth-child(9),
+table.stats td:nth-child(13),table.stats th:nth-child(13)
+{
+    border-right:2px solid #999;
+}

@@ -1,0 +1,46 @@
+{
+    "Name": "INTRO_REVENGE_WIN_1",
+    "Index": 1610,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 360,
+    "Commands": {
+        "1": [
+            {
+                "TickStart": 0,
+                "TickEnd": 360,
+                "Data": {
+                    "Flag1": "=>0x0",
+                    "Flag2": "0x30a"
+                }
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 360,
+                "Data": {
+                    "Index": 35,
+                    "Type": 5,
+                    "FrameStart": 0,
+                    "FrameEnd": 360,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 360,
+                "Data": {
+                    "Index": 40,
+                    "Type": 3,
+                    "FrameStart": 0,
+                    "FrameEnd": 360,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ]
+    }
+}

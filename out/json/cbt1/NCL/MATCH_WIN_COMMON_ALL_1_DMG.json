@@ -1,0 +1,46 @@
+{
+    "Name": "MATCH_WIN_COMMON_ALL_1_DMG",
+    "Index": 1751,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 300,
+    "Commands": {
+        "1": [
+            {
+                "TickStart": 0,
+                "TickEnd": 300,
+                "Data": {
+                    "Flag1": "0x800000=>0x800000",
+                    "Flag2": "0x30a"
+                }
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 300,
+                "Data": {
+                    "Index": 6,
+                    "Type": 7,
+                    "FrameStart": 0,
+                    "FrameEnd": 300,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 300,
+                "Data": {
+                    "Index": 32,
+                    "Type": 4,
+                    "FrameStart": 0,
+                    "FrameEnd": 0,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ]
+    }
+}

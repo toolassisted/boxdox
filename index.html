@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <base href="http://toolassisted.github.io/boxdox/" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Eric 'dantarion' Sheppard">
+
+    <title>dantarion's sf5.boxdox.hitboxes</title>
+
+    <link href="http://layout.jquery-dev.com/lib/css/layout-default-latest.css" rel="stylesheet">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.9.0/vis.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link href="css/boxdox.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.9.0/vis.min.js"></script>
+    <script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="http://layout.jquery-dev.com/lib/js/jquery.layout-latest.js"></script>
+    <script src="boxdox.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">dantarion's boxdox</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="./">Boxes</a>
+                    </li>
+                    <li>
+                        <a href="http://watissf.dantarion.com/sf5/boxdox/stats/cbt1/RYU">Stats</a>
+                    </li>
+                    <li>
+                        <a href="http://watissf.dantarion.com/sf5/boxdox/../diffs/">Patch Changelogs</a>
+                    </li>
+                    <li>
+                        <a href="http://twitter.com/dantarion">Twitter</a>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left" role="search">
+                  <div class="form-group">
+                    <label>Zoom</label>
+                    <input type="text" id="zoom-factor" class="form-control" size="3">
+                  </div>
+                </form>
+            </div>
+            
+        </div>
+    </nav>
+    <div id="viewport">
+        <div id="selector" class="pane ui-layout-west">
+            <select id="character" class="form-control">
+              <option selected="selected">Select a Character</option>
+                                  <option value="cbt3_steam_megapak/EB2">EB2 BLR</option>
+                                  <option value="cbt3_steam_megapak/CB4">CB4 BRD</option>
+                                  <option value="cbt3_steam_megapak/A45">A45 CMY</option>
+                                  <option value="cbt3_steam_megapak/C91">C91 CNL</option>
+                                  <option value="cbt3_1_steam/B74">B74 DSM</option>
+                                  <option value="cbt3_steam_megapak/A36">A36 KEN</option>
+                                  <option value="cbt3_steam_megapak/CD7">CD7 KRN</option>
+                                  <option value="cbt3_1_steam/DC9">DC9 LAR</option>
+                                  <option value="cbt3_steam_megapak/EFE">EFE NCL</option>
+                                  <option value="cbt3_steam_megapak/A4B">A4B NSH</option>
+                                  <option value="cbt3_steam_megapak/CED">CED RMK</option>
+                                  <option value="cbt3_steam_megapak/FB2">FB2 RSD</option>
+                                  <option value="cbt3_steam_megapak/ABD">ABD RYU</option>
+                                  <option value="cbt3_steam_megapak/B59">B59 VEG</option>
+                                  <option value="cbt3_1_steam/EC2">EC2 ZGF</option>
+
+                                  <option value="cbt1/BLR">CBT1 BLR</option>
+                                  <option value="cbt1/BRD">CBT1 BRD</option>
+                                  <option value="cbt1/CMY">CBT1 CMY</option>
+                                  <option value="cbt1/CNL">CBT1 CNL</option>
+                                  <option value="cbt1/KEN">CBT1 KEN</option>
+                                  <option value="cbt1/NCL">CBT1 NCL</option>
+                                  <option value="cbt1/NSH">CBT1 NSH</option>
+                                  <option value="cbt1/RMK">CBT1 RMK</option>
+                                  <option value="cbt1/RYU">CBT1 RYU</option>
+                                  <option value="cbt1/VEG">CBT1 VEG</option>
+                                  <option value="cbt2/KRN">CBT2 KRN</option>
+                                  <option value="cbt2/RSD">CBT2 RSD</option>
+                                  <option value="cbt3_1_ps4/DSM">CBT3 DSM</option>
+                                  <option value="cbt3_1_ps4/LAR">CBT3 LAR</option>                                  
+                                  <option value="cbt3_1_ps4/ZGF">CBT3 ZGF</option>
+
+                                  <option value="cbt1/CMN">CBT1 CMN</option>                                  
+                                  <option value="cbt3_steam_megapak/CMN">CBT3 CMN</option>
+                          </select>
+            <ul id="scripts" class="list-group">
+                <span class="glyphicon glyphicon-chevron-up">pick a character, lets get down to buisness, don't be a nerd</span>
+            </ul>
+        </div>
+        <div id="main" class="pane ui-layout-center">
+            <div id="toolbar">
+                <button id="prevFrameButton" type="button" class="btn"><span class="glyphicon glyphicon-backward" aria-hidden="true"></span></button>
+                <span id="currentFrame">1 / 10</span>
+                <button id="nextFrameButton" id="prevFrameButton" type="button" class="btn"><span class="glyphicon glyphicon-forward" aria-hidden="true"></span></button>
+                <button id="playButton" type="button" class="btn btn-success "><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
+            </div>
+        <canvas id="canvas"/>
+        </div>
+        <div id="timeline" class="pane ui-layout-south">
+            <div id="visualization"></div>
+        </div>
+        <div id="data" class="pane ui-layout-east">data</div>
+    </div>
+</body>
+</html>

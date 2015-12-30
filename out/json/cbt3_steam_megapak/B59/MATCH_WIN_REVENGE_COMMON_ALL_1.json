@@ -1,0 +1,78 @@
+{
+    "Name": "MATCH_WIN_REVENGE_COMMON_ALL_1",
+    "Index": 1760,
+    "FirstHitboxFrame": -1,
+    "LastHitboxFrame": -1,
+    "IASAFrame": -1,
+    "TotalTicks": 300,
+    "Commands": {
+        "4": [
+            {
+                "TickStart": 0,
+                "TickEnd": 1,
+                "Data": [
+                    0,
+                    71,
+                    16,
+                    12,
+                    1,
+                    400,
+                    0,
+                    200,
+                    1500,
+                    0,
+                    1500,
+                    0,
+                    15,
+                    0
+                ]
+            }
+        ],
+        "8": [
+            {
+                "TickStart": 0,
+                "TickEnd": 300,
+                "Data": {
+                    "Index": 15,
+                    "Type": 5,
+                    "FrameStart": 0,
+                    "FrameEnd": 300,
+                    "Unk1": 0,
+                    "Unk2": 32
+                }
+            },
+            {
+                "TickStart": 0,
+                "TickEnd": 300,
+                "Data": {
+                    "Index": 30,
+                    "Type": 3,
+                    "FrameStart": 0,
+                    "FrameEnd": 300,
+                    "Unk1": 0,
+                    "Unk2": 16
+                }
+            }
+        ],
+        "11": [
+            {
+                "TickStart": 10,
+                "TickEnd": 11,
+                "Data": [
+                    0,
+                    0,
+                    1,
+                    32,
+                    0,
+                    -1,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.699999988079071,
+                    0
+                ]
+            }
+        ]
+    }
+}
