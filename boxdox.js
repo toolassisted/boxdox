@@ -101,8 +101,17 @@ function setTime(time)
     }
     var OFFSETX = canvas.width/2;
     var OFFSETY = canvas.height-100;
-    
+
+    var LINES = new createjs.Shape();
+    LINES.graphics.setStrokeStyle(1).beginStroke("#333333")
+    .moveTo(OFFSETX,0).lineTo(OFFSETX,canvas.height)
+    .moveTo(0,OFFSETY-1.32*CONVERSION).lineTo(canvas.width,OFFSETY-1.32*CONVERSION)
+    .moveTo(0,OFFSETY-1.7*CONVERSION).lineTo(canvas.width,OFFSETY-1.7*CONVERSION)
+    .endStroke();
+    stage.addChild(LINES);
+
     var circle = new createjs.Shape();
+    circle.graphics.beginFill("green").drawCircle(OFFSETX, OFFSETY, 5);
     stage.addChild(circle);
     currentTime = time;
     $("#currentFrame").html(currentTime.toString()+" / "+currentScript.TotalTicks);
@@ -110,6 +119,17 @@ function setTime(time)
     history.replaceState(undefined, undefined,"#"+ $( "#character" ).val()+"-"+currentScript.Name+"-"+time);
     var maxHurtboxReach = -100000;
     var maxHitboxReach = -100000;
+    var SCRIPTX = 0;
+    if (currentScript.Commands[12])
+    {
+        $(currentScript.Commands[12]).each(function(index,command)
+        {
+            if(currentTime >= command.TickStart && currentTime < command.TickEnd)
+            {
+                SCRIPTX = command.Data[0];
+            }
+        });
+    }
     $(currentScript.Commands[6]).each(function(index,command)
     {
         if(currentTime >= command.TickStart && currentTime < command.TickEnd)
@@ -122,13 +142,13 @@ function setTime(time)
             {
                 rect.graphics.beginStroke("#00ffff");
             }
-            rect.graphics.drawRect(command.Data["X"],-(command.Data["Y"]+command.Data["Height"]),command.Data["Width"],command.Data["Height"]);
+            rect.graphics.drawRect(SCRIPTX+command.Data["X"],-(command.Data["Y"]+command.Data["Height"]),command.Data["Width"],command.Data["Height"]);
             rect.x = OFFSETX;
             rect.y = OFFSETY;
             rect.scaleX = CONVERSION;
             rect.scaleY = CONVERSION;
             stage.addChild(rect);
-            maxHurtboxReach = Math.max(maxHurtboxReach, command.Data["X"]+command.Data["Width"]);
+            maxHurtboxReach = Math.max(maxHurtboxReach, SCRIPTX+command.Data["X"]+command.Data["Width"]);
         }
     });
     $(currentScript.Commands[5]).each(function(index,command)
@@ -144,14 +164,14 @@ function setTime(time)
             }
             else
             {
-                maxHitboxReach = Math.max(maxHitboxReach, command.Data["X"]+command.Data["Width"]);
+                maxHitboxReach = Math.max(maxHitboxReach, SCRIPTX+command.Data["X"]+command.Data["Width"]);
                 var text = new createjs.Text("ID="+command.Data["Id"]+"\n"+command.Data["HitLevel"] , "10px Arial", "#ff0000");
-                text.x = 5+OFFSETX+command.Data["X"]*CONVERSION;
+                text.x = 5+OFFSETX+SCRIPTX*CONVERSION+command.Data["X"]*CONVERSION;
                 text.y = 5+OFFSETY-(command.Data["Y"]+command.Data["Height"])*CONVERSION;
                 stage.addChild(text);
             }
             
-            rect.graphics.drawRect(command.Data["X"],-(command.Data["Y"]+command.Data["Height"]),command.Data["Width"],command.Data["Height"]);
+            rect.graphics.drawRect(SCRIPTX+command.Data["X"],-(command.Data["Y"]+command.Data["Height"]),command.Data["Width"],command.Data["Height"]);
             rect.x = OFFSETX;
             rect.y = OFFSETY;
             rect.scaleX = CONVERSION;
