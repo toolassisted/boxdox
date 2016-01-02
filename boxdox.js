@@ -44,6 +44,14 @@ $(function()
         }
             
     });
+    $("#STANDButton").click(function()
+    { 
+        $("#scripts").scrollTop(0);
+    });
+    $("#5LPButton").click(function()
+    { 
+        $("#scripts").scrollTop($(".hasHitbox").position().top);
+    });
     $( "#character" ).change(function () 
     {
         window.location.hash = $( "#character" ).val();
