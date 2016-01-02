@@ -194,25 +194,25 @@ function setTime(time)
     {
         var text = new createjs.Text("Hurtbox Range:" + maxHurtboxReach.toFixed(3) , "20px Arial", "#0000ff");
         text.x = 10;
-        text.y = 10;
+        text.y = 30;
         stage.addChild(text);
     }
     if(maxHitboxReach != -100000)
     {
         text = new createjs.Text("Hitbox Range :" + maxHitboxReach.toFixed(3) , "20px Arial", "#ff0000");
         text.x = 10;
-        text.y = 30;
+        text.y = 50;
         stage.addChild(text);
     }
     if(maxHurtboxReach != -100000 && maxHitboxReach != -100000)
     {
         text = new createjs.Text("Disjoint           :" + (maxHitboxReach-maxHurtboxReach).toFixed(3) , "20px Arial", "#ff7700");
         text.x = 10;
-        text.y = 50;
+        text.y = 70;
         stage.addChild(text);
     }
-    text = new createjs.Text($( "#character" ).val()+" "+currentScript["Name"]+" "+currentTime , "24px Arial", "#ffffff");
-    text.x = 500;
+    text = new createjs.Text($( "#character" ).val()+" "+currentScript["Name"]+" "+currentTime , "20px Arial", "#ffffff");
+    text.x = 10;
     text.y = 10;
     stage.addChild(text);
     stage.update();
